@@ -44,9 +44,9 @@ a:hover { color: #7ff2ff; }
 
 /* ---- Üst bar ---- */
 .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 22px; }
-.brand { font: 600 15px/1 var(--sans); letter-spacing: 0.02em; color: var(--text); text-decoration: none; }
+.brand { font: 600 15px/1 var(--sans); letter-spacing: 0.02em; color: var(--text); text-decoration: none; white-space: nowrap; }
 .brand span { color: var(--text-3); font-weight: 400; }
-.top nav a { color: var(--text-2); text-decoration: none; font-size: 14px; margin-left: 20px; }
+.top nav a { color: var(--text-2); text-decoration: none; font-size: 14px; margin-left: 20px; white-space: nowrap; }
 .top nav a:hover { color: var(--text); }
 
 /* ---- Başlıklar ---- */
@@ -72,8 +72,16 @@ h1 em, .grad {
 
 .hero { padding-block: 72px 56px; }
 
+/* ---- Raflar (Oyunlar / Uygulamalar) ---- */
+.shelf { padding-block: 8px 48px; }
+.shelf-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+.shelf-head h2 { margin: 0; }
+.shelf-head a { font-size: 14px; color: var(--text-2); text-decoration: none; }
+.shelf-head a:hover { color: var(--text); }
+.empty { margin: 0; padding: 22px; border: 1px dashed var(--stroke); border-radius: 22px; color: var(--text-3); }
+.top nav a[aria-current="page"] { color: var(--text); }
+
 /* ---- Oyun kartı ---- */
-.games { padding-block: 8px 64px; }
 .card {
   display: grid;
   grid-template-columns: 96px 1fr;
@@ -89,7 +97,7 @@ h1 em, .grad {
 }
 .card:hover { border-color: rgba(0, 229, 255, 0.45); transform: translateY(-2px); }
 .card img { width: 96px; height: 96px; border-radius: 22px; display: block; }
-.card h2 { font: 400 34px/1 var(--serif); margin: 0 0 6px; }
+.card h3 { font: 400 34px/1 var(--serif); margin: 0 0 6px; }
 .card p { margin: 0; color: var(--text-2); }
 .tag {
   display: inline-block;
@@ -138,8 +146,10 @@ footer a:hover { color: var(--text); }
   .hero { padding-block: 48px 40px; }
   .card { grid-template-columns: 72px 1fr; gap: 16px; padding: 18px; }
   .card img { width: 72px; height: 72px; border-radius: 18px; }
-  .card h2 { font-size: 28px; }
+  .card h3 { font-size: 28px; }
   .top nav a { margin-left: 14px; }
+  /* Dar ekranda e-posta menüden çıkıyor; alt bilgide zaten var. */
+  .top nav a[href^="mailto:"] { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
