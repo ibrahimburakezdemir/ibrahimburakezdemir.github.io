@@ -15,27 +15,28 @@ $Src = Join-Path $Root 'src'
 $Site = 'https://thehappysmashiron.com'
 $Utf8 = New-Object System.Text.UTF8Encoding $false
 
-# Sıra = dil menüsündeki sıra. code: klasör adı, tag: lang/hreflang değeri.
+# Sıra = dil menüsündeki sıra: İngilizce, Türkçe, Avrupa dilleri, en altta Asya dilleri ve Arapça.
+# code: klasör adı, tag: lang/hreflang değeri.
 $Langs = @(
-  @{ code = 'tr'; tag = 'tr' },
   @{ code = 'en'; tag = 'en' },
+  @{ code = 'tr'; tag = 'tr' },
   @{ code = 'es'; tag = 'es' },
   @{ code = 'fr'; tag = 'fr' },
   @{ code = 'de'; tag = 'de' },
   @{ code = 'it'; tag = 'it' },
   @{ code = 'pt'; tag = 'pt-BR' },
-  @{ code = 'ar'; tag = 'ar'; rtl = $true },
-  @{ code = 'hi'; tag = 'hi' },
-  @{ code = 'zh'; tag = 'zh-Hans' },
-  @{ code = 'ru'; tag = 'ru' },
-  @{ code = 'ms'; tag = 'ms' },
   @{ code = 'nl'; tag = 'nl' },
   @{ code = 'no'; tag = 'nb' },
   @{ code = 'sv'; tag = 'sv' },
   @{ code = 'fi'; tag = 'fi' },
-  @{ code = 'hu'; tag = 'hu' },
   @{ code = 'cs'; tag = 'cs' },
-  @{ code = 'ja'; tag = 'ja' }
+  @{ code = 'hu'; tag = 'hu' },
+  @{ code = 'ru'; tag = 'ru' },
+  @{ code = 'zh'; tag = 'zh-Hans' },
+  @{ code = 'ja'; tag = 'ja' },
+  @{ code = 'hi'; tag = 'hi' },
+  @{ code = 'ms'; tag = 'ms' },
+  @{ code = 'ar'; tag = 'ar'; rtl = $true }
 )
 
 # only: sadece bu dilde üretilir; fallback: diğer dillerin menüde gideceği sayfa.
