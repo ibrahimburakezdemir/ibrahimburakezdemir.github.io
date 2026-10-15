@@ -13,6 +13,7 @@
   "footer_about": "हमारे बारे में",
   "footer_contact": "संपर्क",
   "footer_privacy": "Flicklane गोपनीयता",
+  "footer_privacy_hw": "Hourwell गोपनीयता",
   "footer_motto": "हाथ से गढ़ा हुआ।",
 
   "home_title": "The Happy Smash Iron · छोटे गेम और काम के ऐप",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane ऐप आइकन",
   "fl_lead": "दो कारें, एक दिमाग़। हर कार की लेन बदलने के लिए स्क्रीन के बाएँ या दाएँ आधे हिस्से पर टैप करें। हर रोशनी पकड़ें, हर लाल टुकड़े से बचें, और रफ़्तार बढ़ने के साथ दोनों कारों को ज़िंदा रखें।",
   "fl_soon_long": "जल्द ही Google Play पर",
-  "fl_privacy_link": "गोपनीयता नीति",
+  "privacy_link": "गोपनीयता नीति",
   "fl_feature_alt": "Flicklane: अँधेरी दो-लेन सड़क पर दो नियॉन कारें",
   "facts_label": "इसमें मज़ा क्यों आता है",
   "facts_title": "सीखना आसान, छोड़ना मुश्किल।",

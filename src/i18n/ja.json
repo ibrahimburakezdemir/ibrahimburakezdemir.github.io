@@ -13,6 +13,7 @@
   "footer_about": "私たちについて",
   "footer_contact": "お問い合わせ",
   "footer_privacy": "Flicklane プライバシー",
+  "footer_privacy_hw": "Hourwell プライバシー",
   "footer_motto": "ひと打ちずつ、手づくりで。",
 
   "home_title": "The Happy Smash Iron · 小さなゲームと便利なアプリ",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane のアプリアイコン",
   "fl_lead": "2台の車を、ひとつの頭で。画面の左半分か右半分をタップして、それぞれの車のレーンを切り替えます。光をすべてキャッチし、赤い破片をすべてかわして、スピードが上がる中で2台とも走り抜けましょう。",
   "fl_soon_long": "Google Play で近日公開",
-  "fl_privacy_link": "プライバシーポリシー",
+  "privacy_link": "プライバシーポリシー",
   "fl_feature_alt": "Flicklane：暗い2車線の道を走る2台のネオンカー",
   "facts_label": "遊びやすさの理由",
   "facts_title": "覚えるのはかんたん、やめるのはむずかしい。",

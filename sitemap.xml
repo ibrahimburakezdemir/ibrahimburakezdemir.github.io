@@ -2511,4 +2511,14 @@
   <url>
     <loc>https://thehappysmashiron.com/games/flicklane/privacy/</loc>
   </url>
+  <url>
+    <loc>https://thehappysmashiron.com/apps/hourwell/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/apps/hourwell/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/apps/hourwell/privacy/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/tr/apps/hourwell/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/apps/hourwell/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/apps/hourwell/privacy/"/>
+  </url>
 </urlset>

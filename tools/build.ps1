@@ -41,7 +41,9 @@ $Langs = @(
   @{ code = 'ar'; tag = 'ar'; rtl = $true }
 )
 
-# only: sadece bu dilde üretilir; fallback: diğer dillerin menüde gideceği sayfa.
+# only: sadece bu dil(ler)de üretilir; fallback: diğer dillerin menüde gideceği sayfa.
+# Çeviri dosyası kullanmayan sayfalarda src içindeki {code} dil koduyla değişir;
+# titleText/descText dil koduna göre bir tablo da olabilir.
 $Pages = @(
   @{ src = 'home.html';      path = '/';                         title = 'home_title';   desc = 'home_desc';   nav = '' },
   @{ src = 'games.html';     path = '/games/';                   title = 'games_title';  desc = 'games_desc';  nav = 'games' },
@@ -51,7 +53,10 @@ $Pages = @(
   @{ src = 'hourwell.html';  path = '/apps/hourwell/';           title = 'hw_title';     desc = 'hw_desc';     nav = 'apps' },
   @{ src = 'privacy.html';   path = '/games/flicklane/privacy/'; nav = 'games'; only = 'en'; fallback = '/games/flicklane/';
      titleText = 'Flicklane Privacy Policy · The Happy Smash Iron'; descText = 'How the Flicklane mobile game handles your information.' },
-  @{ src = '404.html';       path = '/404.html';                 nav = ''; only = 'en'; fallback = '/'; noindex = $true;
+  @{ src = 'hourwell-privacy-{code}.html'; path = '/apps/hourwell/privacy/'; nav = 'apps'; only = @('en', 'tr'); fallback = '/apps/hourwell/';
+     titleText = @{ en = 'Hourwell Privacy Policy · The Happy Smash Iron'; tr = 'Hourwell Gizlilik Politikası · The Happy Smash Iron' };
+     descText = @{ en = 'How the Hourwell time tracker handles your information.'; tr = 'Hourwell zaman takipçisinin bilgilerinizi nasıl ele aldığı.' } },
+  @{ src = '404.html';      path = '/404.html';                 nav = ''; only = 'en'; fallback = '/'; noindex = $true;
      titleText = 'Page not found · The Happy Smash Iron'; descText = 'This page does not exist.' }
 )
 
@@ -115,26 +120,33 @@ function Render([string]$tpl, [hashtable]$dict, [hashtable]$vars) {
 
 $sitemap = New-Object System.Collections.Generic.List[string]
 $count = 0
-foreach ($page in $Pages) {
-  $body = (Read-Text (Join-Path $Src "pages\$($page.src)")).Replace('{{@rules}}', $Rules.TrimEnd("`n"))
-  $tpl = $Head + "`n" + $body.TrimEnd("`n") + "`n`n" + $Footer
-  $pageLangs = if ($page.only) { $Langs | Where-Object { $_.code -eq $page.only } } else { $Langs }
+# Tablo verilmişse bu dilin değeri, değilse değerin kendisi
+function PerLang($v, $code) { if ($v -is [hashtable]) { $v[$code] } else { $v } }
 
-  # Bu sayfanın dil karşılıkları (hreflang)
+# Hourwell gizlilik politikası İngilizce ve Türkçe; diğer diller İngilizcesine gider.
+$HwPrivacyLangs = ($Pages | Where-Object { $_.path -eq '/apps/hourwell/privacy/' }).only
+
+foreach ($page in $Pages) {
+  $pageLangs = @(if ($page.only) { $Langs | Where-Object { $page.only -contains $_.code } } else { $Langs })
+
+  # Bu sayfanın dil karşılıkları (hreflang); tek dilli sayfalarda yok
   $alt = @()
   if ($page.noindex) {
     $alt += '  <meta name="robots" content="noindex">'
-  } elseif (-not $page.only) {
-    foreach ($l in $Langs) { $alt += "  <link rel=`"alternate`" hreflang=`"$($l.tag)`" href=`"$Site$(Prefix $l.code)$($page.path)`">" }
+  } elseif ($pageLangs.Count -gt 1) {
+    foreach ($l in $pageLangs) { $alt += "  <link rel=`"alternate`" hreflang=`"$($l.tag)`" href=`"$Site$(Prefix $l.code)$($page.path)`">" }
     $alt += "  <link rel=`"alternate`" hreflang=`"x-default`" href=`"$Site$($page.path)`">"
   }
 
   foreach ($l in $pageLangs) {
     $d = $Dicts[$l.code]
     $prefix = Prefix $l.code
+    $body = (Read-Text (Join-Path $Src "pages\$($page.src.Replace('{code}', $l.code))")).Replace('{{@rules}}', $Rules.TrimEnd("`n"))
+    $tpl = $Head + "`n" + $body.TrimEnd("`n") + "`n`n" + $Footer
+    $hwp = if ($HwPrivacyLangs -contains $l.code) { $l } else { @{ code = 'en'; tag = 'en' } }
 
     $items = foreach ($o in $Langs) {
-      $target = if ($page.only -and $o.code -ne $page.only) { $page.fallback } else { $page.path }
+      $target = if ($page.only -and $page.only -notcontains $o.code) { $page.fallback } else { $page.path }
       $cur = if ($o.code -eq $l.code) { ' aria-current="true"' } else { '' }
       "            <li><a href=`"$(Prefix $o.code)$target`" hreflang=`"$($o.tag)`" lang=`"$($o.tag)`"$cur>$(Enc $Dicts[$o.code]['lang_name'])</a></li>"
     }
@@ -147,8 +159,8 @@ foreach ($page in $Pages) {
     $vars = @{
       hreflang   = $l.tag
       dir        = $(if ($l.rtl) { 'rtl' } else { 'ltr' })
-      title      = Enc $(if ($page.titleText) { $page.titleText } else { $d[$page.title] })
-      desc       = Enc $(if ($page.descText) { $page.descText } else { $d[$page.desc] })
+      title      = Enc $(if ($page.titleText) { PerLang $page.titleText $l.code } else { $d[$page.title] })
+      desc       = Enc $(if ($page.descText) { PerLang $page.descText $l.code } else { $d[$page.desc] })
       url        = $prefix + $page.path
       root       = $prefix
       shots      = $(if ($l.code -eq 'tr') { 'tr' } else { 'en' })  # Hourwell ekran görüntüleri: Türkçe ya da İngilizce
@@ -159,6 +171,8 @@ foreach ($page in $Pages) {
       cur_apps   = $(if ($page.nav -eq 'apps') { ' aria-current="page"' } else { '' })
       cur_studio = $(if ($page.nav -eq 'studio') { ' aria-current="page"' } else { '' })
       en_only    = $(if ($l.code -eq 'en') { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
+      hw_privacy = "href=`"$(Prefix $hwp.code)/apps/hourwell/privacy/`" hreflang=`"$($hwp.tag)`""
+      hw_privacy_tag = $(if ($hwp.code -eq $l.code) { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
     }
 
     $html = Render $tpl $d $vars
@@ -168,8 +182,8 @@ foreach ($page in $Pages) {
     [System.IO.File]::WriteAllText($out, $html, $Utf8)
     $count++
 
-    if (-not $page.noindex -and -not $page.only) {
-      $links = ($Langs | ForEach-Object { "    <xhtml:link rel=`"alternate`" hreflang=`"$($_.tag)`" href=`"$Site$(Prefix $_.code)$($page.path)`"/>" }) -join "`n"
+    if (-not $page.noindex -and $pageLangs.Count -gt 1) {
+      $links = ($pageLangs | ForEach-Object { "    <xhtml:link rel=`"alternate`" hreflang=`"$($_.tag)`" href=`"$Site$(Prefix $_.code)$($page.path)`"/>" }) -join "`n"
       $sitemap.Add("  <url>`n    <loc>$Site$prefix$($page.path)</loc>`n$links`n  </url>")
     } elseif (-not $page.noindex) {
       $sitemap.Add("  <url>`n    <loc>$Site$prefix$($page.path)</loc>`n  </url>")

@@ -13,6 +13,7 @@
   "footer_about": "Über uns",
   "footer_contact": "Kontakt",
   "footer_privacy": "Flicklane-Datenschutz",
+  "footer_privacy_hw": "Hourwell-Datenschutz",
   "footer_motto": "Von Hand geschmiedet.",
 
   "home_title": "The Happy Smash Iron · Kleine Spiele und praktische Apps",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane-App-Symbol",
   "fl_lead": "Zwei Autos, ein Kopf. Tippe auf die linke oder rechte Bildschirmhälfte, um die Spur des jeweiligen Autos zu wechseln. Schnapp dir jedes Licht, weich jedem roten Splitter aus und halte beide Autos am Leben, während das Tempo steigt.",
   "fl_soon_long": "Bald auf Google Play",
-  "fl_privacy_link": "Datenschutzerklärung",
+  "privacy_link": "Datenschutzerklärung",
   "fl_feature_alt": "Flicklane: zwei Neon-Autos auf einer dunklen, zweispurigen Straße",
   "facts_label": "Warum es so gut spielt",
   "facts_title": "Schnell gelernt, schwer wegzulegen.",

@@ -13,6 +13,7 @@
   "footer_about": "Om oss",
   "footer_contact": "Kontakt",
   "footer_privacy": "Personvern i Flicklane",
+  "footer_privacy_hw": "Personvern i Hourwell",
   "footer_motto": "Smidd for hånd.",
 
   "home_title": "The Happy Smash Iron · Små spill og nyttige apper",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Appikonet til Flicklane",
   "fl_lead": "To biler, ett hode. Trykk på venstre eller høyre halvdel av skjermen for å bytte fil for hver bil. Fang hvert lys, unngå hver røde splint og hold begge bilene i live mens farten øker.",
   "fl_soon_long": "Kommer snart på Google Play",
-  "fl_privacy_link": "Personvernerklæring",
+  "privacy_link": "Personvernerklæring",
   "fl_feature_alt": "Flicklane: to neonbiler på en mørk tofeltsvei",
   "facts_label": "Derfor fenger det",
   "facts_title": "Lett å lære, vanskelig å legge fra seg.",

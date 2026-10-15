@@ -13,6 +13,7 @@
   "footer_about": "O nás",
   "footer_contact": "Kontakt",
   "footer_privacy": "Flicklane – soukromí",
+  "footer_privacy_hw": "Hourwell – soukromí",
   "footer_motto": "Vykováno ručně.",
 
   "home_title": "The Happy Smash Iron · Malé hry a šikovné aplikace",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Ikona aplikace Flicklane",
   "fl_lead": "Dvě auta, jedna mysl. Ťukni na levou nebo pravou polovinu obrazovky a příslušné auto přejede do druhého pruhu. Chytej každé světlo, vyhýbej se každému rudému střepu a udrž obě auta naživu, zatímco rychlost roste.",
   "fl_soon_long": "Již brzy na Google Play",
-  "fl_privacy_link": "Zásady ochrany soukromí",
+  "privacy_link": "Zásady ochrany soukromí",
   "fl_feature_alt": "Flicklane: dvě neonová auta na tmavé dvouproudé silnici",
   "facts_label": "Proč to baví",
   "facts_title": "Snadno se naučíš, těžko přestaneš.",

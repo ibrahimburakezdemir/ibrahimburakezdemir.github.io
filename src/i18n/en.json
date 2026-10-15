@@ -13,6 +13,7 @@
   "footer_about": "About us",
   "footer_contact": "Contact",
   "footer_privacy": "Flicklane privacy",
+  "footer_privacy_hw": "Hourwell privacy",
   "footer_motto": "Hammered out by hand.",
 
   "home_title": "The Happy Smash Iron · Small games and handy apps",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane app icon",
   "fl_lead": "Two cars, one mind. Tap the left or right half of the screen to switch each car’s lane. Catch every light, dodge every red shard, and keep both cars alive as the speed climbs.",
   "fl_soon_long": "Coming soon on Google Play",
-  "fl_privacy_link": "Privacy policy",
+  "privacy_link": "Privacy policy",
   "fl_feature_alt": "Flicklane: two neon cars on a dark two-lane road",
   "facts_label": "Why it plays well",
   "facts_title": "Simple to learn, hard to put down.",

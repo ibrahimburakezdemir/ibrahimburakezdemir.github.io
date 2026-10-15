@@ -13,6 +13,7 @@
   "footer_about": "Hakkımızda",
   "footer_contact": "İletişim",
   "footer_privacy": "Flicklane gizlilik politikası",
+  "footer_privacy_hw": "Hourwell gizlilik politikası",
   "footer_motto": "El emeğiyle dövüldü.",
 
   "home_title": "The Happy Smash Iron · Küçük oyunlar, kullanışlı uygulamalar",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane uygulama simgesi",
   "fl_lead": "İki araba, tek akıl. Her arabanın şeridini değiştirmek için ekranın sol ya da sağ yarısına dokun. Her ışığı yakala, her kırmızı kıymıktan kaç ve hız arttıkça iki arabayı da hayatta tut.",
   "fl_soon_long": "Yakında Google Play’de",
-  "fl_privacy_link": "Gizlilik politikası",
+  "privacy_link": "Gizlilik politikası",
   "fl_feature_alt": "Flicklane: karanlık, iki şeritli bir yolda iki neon araba",
   "facts_label": "Neden bu kadar keyifli",
   "facts_title": "Öğrenmesi kolay, bırakması zor.",

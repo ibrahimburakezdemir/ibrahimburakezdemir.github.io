@@ -1,0 +1,67 @@
+  <main id="main" class="wrap doc">
+    <p class="crumbs"><a href="{{@root}}/apps/">{{nav_apps}}</a> / <a href="{{@root}}/apps/hourwell/">Hourwell</a> / Privacy</p>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated: 15 October 2026</p>
+
+    <p>This Privacy Policy describes how the <strong>Hourwell</strong> time tracking app (“the App”, “we”, “us”), published by The Happy Smash Iron, handles your information.</p>
+
+    <div class="summary">
+      <p><strong>Hourwell does not collect any data, does not send it to a server, and does not share it with third parties.</strong> The App contains no analytics, no advertising ID, no crash reporting service and no tracking. The records you keep stay on your phone.</p>
+    </div>
+
+    <h2>Where your data is stored</h2>
+    <table>
+      <thead>
+        <tr><th scope="col">Data</th><th scope="col">Where it is stored</th><th scope="col">Who can see it</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Activities, time entries and notes</td><td data-label="Stored">A database on your phone (<code>hourwell.sqlite</code>)</td><td data-label="Visible to">Only you</td></tr>
+        <tr><td>Preferences (theme, pet, language, goals, and your profile name if you set one)</td><td data-label="Stored">A settings file on your phone</td><td data-label="Visible to">Only you</td></tr>
+        <tr><td>Pro membership status</td><td data-label="Stored">A separate settings file on your phone</td><td data-label="Visible to">Only you</td></tr>
+        <tr><td>Error log (the last 40 errors)</td><td data-label="Stored">On your phone</td><td data-label="Visible to">Only you. It is shared only if you copy it yourself with <strong>Settings → About → Copy error log</strong> and send it to someone.</td></tr>
+      </tbody>
+    </table>
+    <p>The App itself does not connect to the internet. The internet permission in the app package comes from the Google Play Billing library and is used only to verify purchases. Nothing about your records, your settings or how you use the App is sent.</p>
+
+    <h2>Files you export</h2>
+    <p>Data leaves your phone in four cases. <strong>You start</strong> the first three yourself; the fourth depends on your phone’s own backup setting:</p>
+    <ol>
+      <li><strong>CSV export.</strong> You send the file to the app you choose.</li>
+      <li><strong>Backup file.</strong> It is saved to the folder you choose.</li>
+      <li><strong>Cloud sync.</strong> When you choose a folder, a single JSON file is written to it. If that folder belongs to a provider such as Google Drive, Dropbox or OneDrive, the file is stored on that provider’s servers and is subject to <strong>that provider’s privacy policy</strong>. Hourwell has no servers; we never have access to your data. You can stop syncing with <strong>Settings → Cloud sync → Disconnect</strong>.</li>
+      <li><strong>Android backup.</strong> If Google backup is turned on for your phone, Android backs up the App’s data (your records and settings) to your Google account and restores it when you move to a new phone. This backup is managed by Google and, on Android 9 and later, is encrypted with your screen lock if you have one set; Hourwell cannot access it. You can turn it off in your phone’s <strong>Settings → System → Backup</strong>.</li>
+    </ol>
+
+    <h2>Purchases</h2>
+    <p>Subscriptions and one-time purchases are handled by <strong>Google Play</strong>. The App does not see, store or process your payment details; those are between you and Google. The only thing the App reads from Google Play is whether you have Pro access.</p>
+
+    <h2>Permissions</h2>
+    <table>
+      <thead>
+        <tr><th scope="col">Permission</th><th scope="col">Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Notifications</td><td>The running timer, the end of a Pomodoro, the daily reminder and the forgotten-timer alert</td></tr>
+        <tr><td>Foreground service (Android 14 and later only)</td><td>Keeps the timer notification and the Pomodoro chime going while a timer runs, even with the screen off</td></tr>
+        <tr><td>Run at startup</td><td>Brings back the running timer notification and the reminder after the phone restarts</td></tr>
+        <tr><td>Vibration</td><td>The Pomodoro end notification</td></tr>
+        <tr><td>Keep awake</td><td>Lets the reminder and the forgotten-timer alert arrive even while the phone is asleep</td></tr>
+        <tr><td>Internet, network state, billing</td><td>Only to verify purchases with Google Play</td></tr>
+        <tr><td>File picker (Storage Access Framework)</td><td>Access only to the files and folders you choose</td></tr>
+      </tbody>
+    </table>
+    <p>The App does not ask for the exact alarm permission: the reminder and alerts use normal alarms, which may arrive a few minutes late.</p>
+    <p>The App does not ask for access to your location, contacts, camera, microphone or device identifiers.</p>
+
+    <h2>Children</h2>
+    <p>The App is not directed at children and does not knowingly collect data from children.</p>
+
+    <h2>Deleting your data</h2>
+    <p>Uninstalling the App deletes all of its data on your phone. You can delete the <code>hourwell-sync.json</code> file written to your cloud folder from that folder yourself.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, this page will be updated and the date at the top will change.</p>
+
+    <h2>Contact</h2>
+    <p>Questions and requests: <a href="mailto:support@thehappysmashiron.com"><strong>support@thehappysmashiron.com</strong></a></p>
+  </main>

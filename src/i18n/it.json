@@ -13,6 +13,7 @@
   "footer_about": "Chi siamo",
   "footer_contact": "Contatti",
   "footer_privacy": "Privacy di Flicklane",
+  "footer_privacy_hw": "Privacy di Hourwell",
   "footer_motto": "Forgiato a mano.",
 
   "home_title": "The Happy Smash Iron · Piccoli giochi e app pratiche",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Icona dell'app Flicklane",
   "fl_lead": "Due auto, una mente. Tocca la metà sinistra o destra dello schermo per far cambiare corsia a ciascuna auto. Prendi ogni luce, schiva ogni scheggia rossa e tieni in gara entrambe le auto mentre la velocità sale.",
   "fl_soon_long": "Presto su Google Play",
-  "fl_privacy_link": "Informativa sulla privacy",
+  "privacy_link": "Informativa sulla privacy",
   "fl_feature_alt": "Flicklane: due auto al neon su una strada buia a due corsie",
   "facts_label": "Perché funziona",
   "facts_title": "Facile da imparare, difficile da mollare.",

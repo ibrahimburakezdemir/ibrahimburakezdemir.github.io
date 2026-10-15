@@ -13,6 +13,7 @@
   "footer_about": "Om oss",
   "footer_contact": "Kontakt",
   "footer_privacy": "Flicklanes integritetspolicy",
+  "footer_privacy_hw": "Hourwells integritetspolicy",
   "footer_motto": "Smidd för hand.",
 
   "home_title": "The Happy Smash Iron · Små spel och smidiga appar",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklanes appikon",
   "fl_lead": "Två bilar, ett huvud. Tryck på vänster eller höger halva av skärmen för att byta fil med respektive bil. Fånga varje ljus, undvik varje röd skärva och håll båda bilarna vid liv medan farten ökar.",
   "fl_soon_long": "Kommer snart på Google Play",
-  "fl_privacy_link": "Integritetspolicy",
+  "privacy_link": "Integritetspolicy",
   "fl_feature_alt": "Flicklane: två neonbilar på en mörk tvåfilig väg",
   "facts_label": "Därför fastnar man",
   "facts_title": "Lätt att lära sig, svårt att lägga ifrån sig.",

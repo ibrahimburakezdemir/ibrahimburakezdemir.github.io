@@ -13,6 +13,7 @@
   "footer_about": "Meistä",
   "footer_contact": "Yhteystiedot",
   "footer_privacy": "Flicklane-tietosuoja",
+  "footer_privacy_hw": "Hourwell-tietosuoja",
   "footer_motto": "Takottu käsin.",
 
   "home_title": "The Happy Smash Iron · Pieniä pelejä ja käteviä sovelluksia",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane-sovelluskuvake",
   "fl_lead": "Kaksi autoa, yksi mieli. Napauta näytön vasenta tai oikeaa puoliskoa vaihtaaksesi kunkin auton kaistaa. Nappaa jokainen valo, väistä jokainen punainen sirpale ja pidä molemmat autot hengissä vauhdin kiihtyessä.",
   "fl_soon_long": "Tulossa pian Google Playhin",
-  "fl_privacy_link": "Tietosuojakäytäntö",
+  "privacy_link": "Tietosuojakäytäntö",
   "fl_feature_alt": "Flicklane: kaksi neonautoa pimeällä kaksikaistaisella tiellä",
   "facts_label": "Miksi se toimii",
   "facts_title": "Helppo oppia, vaikea lopettaa.",

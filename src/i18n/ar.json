@@ -13,6 +13,7 @@
   "footer_about": "من نحن",
   "footer_contact": "تواصل معنا",
   "footer_privacy": "خصوصية Flicklane",
+  "footer_privacy_hw": "خصوصية Hourwell",
   "footer_motto": "طرقناه بأيدينا.",
 
   "home_title": "The Happy Smash Iron · ألعاب صغيرة وتطبيقات مفيدة",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "أيقونة تطبيق Flicklane",
   "fl_lead": "سيارتان وعقل واحد. المس النصف الأيسر أو الأيمن من الشاشة لتبديل مسار كل سيارة. التقط كل ضوء، وتفادَ كل شظية حمراء، وأبقِ السيارتين على قيد الحياة مع تصاعد السرعة.",
   "fl_soon_long": "قريبًا على Google Play",
-  "fl_privacy_link": "سياسة الخصوصية",
+  "privacy_link": "سياسة الخصوصية",
   "fl_feature_alt": "Flicklane: سيارتان بألوان النيون على طريق مظلم بمسارين",
   "facts_label": "ما الذي يميّزها",
   "facts_title": "سهلة التعلّم، صعبة الترك.",

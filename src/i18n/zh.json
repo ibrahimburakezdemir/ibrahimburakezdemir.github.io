@@ -13,6 +13,7 @@
   "footer_about": "关于我们",
   "footer_contact": "联系我们",
   "footer_privacy": "Flicklane 隐私政策",
+  "footer_privacy_hw": "Hourwell 隐私政策",
   "footer_motto": "一锤一锤，亲手敲出来。",
 
   "home_title": "The Happy Smash Iron · 小游戏与好用的应用",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "Flicklane 应用图标",
   "fl_lead": "两辆车，一心二用。点击屏幕左半边或右半边，切换对应赛车的车道。接住每一道光，躲开每一块红色碎片，在速度不断攀升时让两辆车都活下来。",
   "fl_soon_long": "即将登陆 Google Play",
-  "fl_privacy_link": "隐私政策",
+  "privacy_link": "隐私政策",
   "fl_feature_alt": "Flicklane：昏暗双车道上的两辆霓虹赛车",
   "facts_label": "为什么好玩",
   "facts_title": "上手简单，欲罢不能。",

@@ -13,6 +13,7 @@
   "footer_about": "Rólunk",
   "footer_contact": "Kapcsolat",
   "footer_privacy": "Flicklane adatvédelem",
+  "footer_privacy_hw": "Hourwell adatvédelem",
   "footer_motto": "Kézzel kovácsolva.",
 
   "home_title": "The Happy Smash Iron · Kis játékok és hasznos appok",
@@ -101,7 +102,7 @@
   "fl_icon_alt": "A Flicklane app ikonja",
   "fl_lead": "Két autó, egy elme. Koppints a képernyő bal vagy jobb felére, és az adott autó sávot vált. Kapd el az összes fényt, kerüld ki az összes piros szilánkot, és tartsd életben mindkét autót, ahogy nő a sebesség.",
   "fl_soon_long": "Hamarosan a Google Playen",
-  "fl_privacy_link": "Adatvédelmi irányelvek",
+  "privacy_link": "Adatvédelmi irányelvek",
   "fl_feature_alt": "Flicklane: két neonautó egy sötét, kétsávos úton",
   "facts_label": "Miért jó játszani",
   "facts_title": "Könnyű megtanulni, nehéz letenni.",
