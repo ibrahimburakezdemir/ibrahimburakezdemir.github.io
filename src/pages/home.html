@@ -75,7 +75,6 @@
             <div class="label">{{bench_label}}</div>
             <h2 id="bench-h">{{bench_title}}</h2>
           </div>
-          <a href="{{@root}}/games/">{{bench_all}}</a>
         </div>
         <article class="bench-card">
           <a class="screen" href="{{@root}}/games/flicklane/" tabindex="-1" aria-hidden="true">
@@ -97,6 +96,30 @@
             </ul>
             <div class="actions" style="align-items: center">
               <a class="btn btn-dark" href="{{@root}}/games/flicklane/">{{fl_discover}}</a>
+              <span class="sticker">{{fl_soon_play}}</span>
+            </div>
+          </div>
+        </article>
+        <article class="bench-card flip">
+          <a class="screen" href="{{@root}}/apps/hourwell/" tabindex="-1" aria-hidden="true">
+            <img src="/apps/hourwell/feature-{{@shots}}.jpg" alt="" width="1024" height="500" loading="lazy">
+          </a>
+          <div class="bench-body">
+            <div class="app-title">
+              <img src="/apps/hourwell/icon-192.png" alt="" width="64" height="64">
+              <div>
+                <h3>Hourwell</h3>
+                <p class="muted">{{hw_genre_short}}</p>
+              </div>
+            </div>
+            <p class="lead" style="font-size: 19px">{{hw_home_text}}</p>
+            <ul class="checks">
+              <li>{{hw_point1}}</li>
+              <li>{{hw_point2}}</li>
+              <li>{{hw_point3}}</li>
+            </ul>
+            <div class="actions" style="align-items: center">
+              <a class="btn btn-dark" href="{{@root}}/apps/hourwell/">{{hw_discover}}</a>
               <span class="sticker">{{fl_soon_play}}</span>
             </div>
           </div>

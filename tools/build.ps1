@@ -8,7 +8,9 @@
 # İngilizce sitenin kökünde, diğer diller /<kod>/ altında yayınlanır.
 # -AllowMissing: çeviri dosyası henüz olmayan dilleri atlar (sadece yerel deneme için).
 
-param([switch]$AllowMissing)
+# -Only en,tr: sadece bu dilleri üretir (yerel deneme için; sitemap'i yazmaz).
+
+param([switch]$AllowMissing, [string[]]$Only)
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent $PSScriptRoot
 $Src = Join-Path $Root 'src'
@@ -46,6 +48,7 @@ $Pages = @(
   @{ src = 'apps.html';      path = '/apps/';                    title = 'apps_title';   desc = 'apps_desc';   nav = 'apps' },
   @{ src = 'studio.html';    path = '/studio/';                  title = 'studio_title'; desc = 'studio_desc'; nav = 'studio' },
   @{ src = 'flicklane.html'; path = '/games/flicklane/';         title = 'fl_title';     desc = 'fl_desc';     nav = 'games' },
+  @{ src = 'hourwell.html';  path = '/apps/hourwell/';           title = 'hw_title';     desc = 'hw_desc';     nav = 'apps' },
   @{ src = 'privacy.html';   path = '/games/flicklane/privacy/'; nav = 'games'; only = 'en'; fallback = '/games/flicklane/';
      titleText = 'Flicklane Privacy Policy · The Happy Smash Iron'; descText = 'How the Flicklane mobile game handles your information.' },
   @{ src = '404.html';       path = '/404.html';                 nav = ''; only = 'en'; fallback = '/'; noindex = $true;
@@ -56,6 +59,8 @@ if ($AllowMissing) {
   $Langs = @($Langs | Where-Object { Test-Path (Join-Path $Src "i18n\$($_.code).json") })
   Write-Host "Diller: $(($Langs | ForEach-Object { $_.code }) -join ', ')"
 }
+
+if ($Only) { $Langs = @($Langs | Where-Object { $Only -contains $_.code }) }
 
 function Read-Text($path) { [System.IO.File]::ReadAllText($path, $Utf8) -replace "`r`n", "`n" }
 # Sadece gerekli karakterler kaçışlanır; ·, ’ ve diğer UTF-8 harfler olduğu gibi kalır.
@@ -146,7 +151,8 @@ foreach ($page in $Pages) {
       desc       = Enc $(if ($page.descText) { $page.descText } else { $d[$page.desc] })
       url        = $prefix + $page.path
       root       = $prefix
-      sp         = $(if ($l.code -in @('zh', 'ja')) { '' } else { ' ' })  # Çince/Japoncada kelime arası boşluk yok
+      shots      = $(if ($l.code -eq 'tr') { 'tr' } else { 'en' })  # Hourwell ekran görüntüleri: Türkçe ya da İngilizce
+      sp         =$(if ($l.code -in @('zh', 'ja')) { '' } else { ' ' })  # Çince/Japoncada kelime arası boşluk yok
       alternates = $alt -join "`n"
       langmenu   = $menu -join "`n"
       cur_games  = $(if ($page.nav -eq 'games') { ' aria-current="page"' } else { '' })
@@ -172,5 +178,5 @@ foreach ($page in $Pages) {
 }
 
 $xml = "<?xml version=`"1.0`" encoding=`"UTF-8`"?>`n<urlset xmlns=`"http://www.sitemaps.org/schemas/sitemap/0.9`" xmlns:xhtml=`"http://www.w3.org/1999/xhtml`">`n" + ($sitemap -join "`n") + "`n</urlset>`n"
-[System.IO.File]::WriteAllText((Join-Path $Root 'sitemap.xml'), $xml, $Utf8)
+if (-not $Only -and -not $AllowMissing) { [System.IO.File]::WriteAllText((Join-Path $Root 'sitemap.xml'), $xml, $Utf8) }
 Write-Host "Tamam: $count sayfa, $($Langs.Count) dil, sitemap.xml ($($sitemap.Count) adres)."

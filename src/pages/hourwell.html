@@ -1,0 +1,104 @@
+  <main id="main">
+    <section class="product-hero">
+      <div class="wrap">
+        <div>
+          <p class="crumbs"><a href="{{@root}}/apps/">{{nav_apps}}</a> / Hourwell</p>
+          <div class="app-title">
+            <img src="/apps/hourwell/icon-192.png" alt="{{attr:hw_icon_alt}}" width="88" height="88">
+            <div>
+              <h1>Hourwell</h1>
+              <p class="muted" style="font-weight: 600">{{hw_genre}}</p>
+            </div>
+          </div>
+          <p class="lead">{{hw_lead}}</p>
+          <div class="actions" style="align-items: center">
+            <span class="sticker">{{hw_soon_long}}</span>
+          </div>
+        </div>
+        <div class="framed">
+          <img src="/apps/hourwell/feature-{{@shots}}.jpg" alt="{{attr:hw_feature_alt}}" width="1024" height="500">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="shots-h" style="padding-top: 0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{shots_label}}</div>
+            <h2 id="shots-h">{{shots_title}}</h2>
+          </div>
+        </div>
+        <ul class="shots" tabindex="0" role="region" aria-label="{{attr:shots_region}}">
+          <li><img src="/apps/hourwell/shots/{{@shots}}/01.jpg" alt="{{attr:shot1_alt}}" width="540" height="960"></li>
+          <li><img src="/apps/hourwell/shots/{{@shots}}/02.jpg" alt="{{attr:shot2_alt}}" width="540" height="960" loading="lazy"></li>
+          <li><img src="/apps/hourwell/shots/{{@shots}}/03.jpg" alt="{{attr:shot3_alt}}" width="540" height="960" loading="lazy"></li>
+          <li><img src="/apps/hourwell/shots/{{@shots}}/04.jpg" alt="{{attr:shot4_alt}}" width="540" height="960" loading="lazy"></li>
+          <li><img src="/apps/hourwell/shots/{{@shots}}/05.jpg" alt="{{attr:shot5_alt}}" width="540" height="960" loading="lazy"></li>
+          <li><img src="/apps/hourwell/shots/{{@shots}}/06.jpg" alt="{{attr:shot6_alt}}" width="540" height="960" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="hw-facts-h" style="padding-top: 0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{hw_facts_label}}</div>
+            <h2 id="hw-facts-h">{{hw_facts_title}}</h2>
+          </div>
+        </div>
+        <ul class="facts facts-3">
+          <li><b>{{hwf1_title}}</b>{{hwf1_text}}</li>
+          <li><b>{{hwf2_title}}</b>{{hwf2_text}}</li>
+          <li><b>{{hwf3_title}}</b>{{hwf3_text}}</li>
+          <li><b>{{hwf4_title}}</b>{{hwf4_text}}</li>
+          <li><b>{{hwf5_title}}</b>{{hwf5_text}}</li>
+          <li><b>{{hwf6_title}}</b>{{hwf6_text}}</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section band-dark" aria-labelledby="plans-h">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{plans_label}}</div>
+            <h2 id="plans-h">{{plans_title}}</h2>
+          </div>
+        </div>
+        <div class="plans">
+          <div class="plan">
+            <h3>{{plan_free_title}}</h3>
+            <ul class="checks">
+              <li>{{plan_free_1}}</li>
+              <li>{{plan_free_2}}</li>
+              <li>{{plan_free_3}}</li>
+            </ul>
+          </div>
+          <div class="plan plan-pro">
+            <h3>{{plan_pro_title}}</h3>
+            <ul class="checks">
+              <li>{{plan_pro_1}}</li>
+              <li>{{plan_pro_2}}</li>
+              <li>{{plan_pro_3}}</li>
+              <li>{{plan_pro_4}}</li>
+            </ul>
+            <p class="plan-note">{{plan_pro_note}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="hw-help-h">
+      <div class="wrap">
+        <div class="contact-card">
+          <div>
+            <h2 id="hw-help-h">{{hw_help_title}}</h2>
+            <p>{{hw_help_text}}</p>
+          </div>
+          <a class="btn btn-plain" href="mailto:support@thehappysmashiron.com">{{help_btn}}</a>
+        </div>
+      </div>
+    </section>
+  </main>

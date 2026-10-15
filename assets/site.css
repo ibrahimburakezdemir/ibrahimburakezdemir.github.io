@@ -189,7 +189,7 @@ p { margin: 0; }
   background: var(--paper); border: var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow); overflow: hidden;
 }
-.screen { background: #060611; display: flex; align-items: center; justify-content: center; border-right: var(--line); }
+.screen { background: #060611; display: flex; align-items: center; justify-content: center; border-inline-end: var(--line); }
 .screen img { display: block; width: 100%; height: auto; }
 .bench-body { padding: 36px; display: flex; flex-direction: column; gap: 18px; }
 .app-title { display: flex; align-items: center; gap: 16px; }
@@ -294,7 +294,7 @@ p { margin: 0; }
   .hero .wrap, .product-hero .wrap, .studio-intro .wrap { grid-template-columns: minmax(0, 1fr); }
   .anvil-stage { order: -1; max-width: 300px; margin: 0 auto; }
   .bench-card { grid-template-columns: minmax(0, 1fr); }
-  .screen { border-right: 0; border-bottom: var(--line); }
+  .screen, .bench-card.flip .screen { order: 0; border-inline: 0; border-bottom: var(--line); }
   .principles { grid-template-columns: minmax(0, 1fr); }
   .contact-card { grid-template-columns: minmax(0, 1fr); }
   .site-footer .wrap { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
@@ -365,9 +365,41 @@ p { margin: 0; }
 /* Uzun bileşik kelimeli diller: başlıklarda heceleme. */
 :is(:lang(de), :lang(nl), :lang(nb), :lang(sv), :lang(fi), :lang(hu), :lang(cs), :lang(ru)) :is(h1, h2, h3) { hyphens: auto; }
 /* Logo ve marka adları her zaman kendi yazı tipiyle. */
-.app-title h3, .product h2 { font-family: "Bricolage Grotesque", var(--font); }
+.app-title :is(h1, h3), .product h2 { font-family: "Bricolage Grotesque", var(--font); }
 /* Dil menüsü: dar ekranda üst barın tüm genişliğine yayılır. */
 @media (max-width: 640px) {
   .lang-menu { position: static; }
   .lang-menu ul { inset-inline: 16px; width: auto; top: calc(100% - 6px); }
 }
+
+/* ---- Tezgâhta ikinci ürün: görsel sağda ---- */
+.bench-card + .bench-card { margin-top: 28px; }
+.bench-card.flip { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); }
+.bench-card.flip .screen { order: 2; border-inline-end: 0; border-inline-start: var(--line); background: #1d1726; }
+@media (max-width: 900px) {
+  .bench-card.flip { grid-template-columns: minmax(0, 1fr); }
+  .bench-card.flip .screen { order: 0; border-inline: 0; border-bottom: var(--line); }
+}
+
+/* ---- Ekran görüntüleri şeridi ---- */
+.shots {
+  display: flex; gap: 20px; margin: 0; padding: 4px 6px 22px; list-style: none;
+  overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+}
+.shots li { flex: 0 0 236px; scroll-snap-align: start; }
+.shots img { display: block; width: 100%; height: auto; border: var(--line); border-radius: 18px; box-shadow: var(--shadow); background: #241b33; }
+@media (max-width: 640px) { .shots li { flex-basis: 200px; } }
+
+/* ---- Ücretsiz / Pro ---- */
+.plans { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.plan { padding: 32px; color: var(--iron); background: var(--paper); border: var(--line); border-radius: var(--radius); box-shadow: 4px 4px 0 var(--spark); }
+.plan h3 { font-size: 40px; letter-spacing: -0.035em; margin-bottom: 18px; }
+.plan-pro { background: var(--spark); box-shadow: 4px 4px 0 var(--paper); }
+.plan-pro .checks li { color: var(--iron); }
+.plan-pro .checks li::before { filter: grayscale(1) brightness(1.6); }
+.plan-note { margin-top: 20px; font-size: 16px; line-height: 1.5; }
+@media (max-width: 900px) { .plans { grid-template-columns: minmax(0, 1fr); } }
+.facts-3 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+/* Ürün başlığı satırı dar ekranda sığsın. */
+.app-title > div { min-width: 0; }
+@media (max-width: 640px) { .product-hero h1 { font-size: 46px; } .product-hero .app-title img { width: 72px; height: 72px; border-radius: 18px; } }
