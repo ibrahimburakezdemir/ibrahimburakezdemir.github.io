@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 2 202 136" role="img" aria-label="The Happy Smash Iron">
+  <defs>
+    <mask id="face" maskUnits="userSpaceOnUse" x="0" y="0" width="210" height="150">
+      <rect width="210" height="150" fill="#fff"/>
+      <path d="M92 48Q98 39 104 48M116 48Q122 39 128 48M96 86Q110 100 124 86" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <path d="M56 30H182V58H158C146 60 140 70 140 86V104C140 112 152 118 172 120V134H48V120C68 118 80 112 80 104V86C80 70 72 62 58 60C38 58 18 50 8 37C6 34 8 32 11 33C26 34 40 30 56 30Z" fill="#1B1A18" mask="url(#face)"/>
+  <path d="M168 20L174 8M180 25L191 17M186 36L197 35" fill="none" stroke="#FFB000" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -4,44 +4,84 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Games · The Happy Smash Iron</title>
-  <meta name="description" content="Mobile games by The Happy Smash Iron.">
-  <meta name="theme-color" content="#060611">
-  <link rel="icon" href="/games/flicklane/icon-64.png">
+  <meta name="description" content="Mobile games by The Happy Smash Iron: one-tap arcade games built for quick sessions and real skill.">
+  <meta name="theme-color" content="#F3F3F0">
+  <link rel="icon" href="/assets/brand/hsi-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/BricolageGrotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-  <header class="wrap top">
-    <a class="brand" href="/">The Happy Smash Iron</a>
-    <nav>
-      <a href="/games/" aria-current="page">Games</a>
-      <a href="/apps/">Apps</a>
-      <a href="mailto:support@thehappysmashiron.com">Contact</a>
-    </nav>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="/"><img src="/assets/brand/hsi-logo.svg" alt="The Happy Smash Iron" width="220" height="46"></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/games/" aria-current="page">Games</a>
+        <a href="/apps/">Apps</a>
+        <a href="/studio/">Studio</a>
+        <a href="mailto:support@thehappysmashiron.com">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="wrap hero">
-      <div class="eyebrow">Games</div>
-      <h1>Play <em>sharp.</em></h1>
-      <p class="lead">One-tap games built for quick sessions and real skill.</p>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">Games</div>
+        <h1>Play <span class="scribble">sharp.</span></h1>
+        <p class="lead">One-tap games built for quick sessions and real skill. Pick one up on the bus, put it down at your stop, come back tomorrow for a better score.</p>
+      </div>
     </section>
 
-    <section class="wrap shelf" aria-label="Games">
-      <a class="card" href="/games/flicklane/">
-        <img src="/games/flicklane/icon-192.png" alt="Flicklane app icon" width="96" height="96">
-        <div>
-          <h3>Flicklane</h3>
-          <p>Two cars, one mind. A one-tap reflex arcade game.</p>
-          <span class="tag">Coming soon · Android</span>
+    <div class="wrap">
+      <div class="shelf">
+        <a class="product" href="/games/flicklane/">
+          <div class="thumb"><img src="/games/flicklane/feature.png" alt="Flicklane: two neon cars racing down a dark two-lane road" width="1024" height="500"></div>
+          <div class="body">
+            <div class="row">
+              <img src="/games/flicklane/icon-192.png" alt="" width="52" height="52">
+              <h2 style="font-size: 32px">Flicklane</h2>
+            </div>
+            <p>Two cars, one mind. A one-tap reflex arcade game.</p>
+            <span class="sticker">Coming soon · Android</span>
+          </div>
+        </a>
+        <div class="placeholder">
+          <img src="/assets/brand/hsi-mark.svg" alt="" width="84" height="57">
+          <h2 style="font-size: 26px">More on the anvil</h2>
+          <p>The next game is being hammered into shape. Check back soon.</p>
         </div>
-      </a>
-    </section>
+      </div>
+    </div>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="wrap">
-      <span>© 2026 The Happy Smash Iron</span>
-      <span><a href="mailto:support@thehappysmashiron.com">support@thehappysmashiron.com</a></span>
+      <div class="brand-col">
+        <img src="/assets/brand/hsi-logo-reverse.svg" alt="The Happy Smash Iron" width="200" height="42">
+        <p>An independent studio making small games and handy apps.</p>
+      </div>
+      <div>
+        <h2>Make</h2>
+        <ul>
+          <li><a href="/games/">Games</a></li>
+          <li><a href="/apps/">Apps</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Studio</h2>
+        <ul>
+          <li><a href="/studio/">About us</a></li>
+          <li><a href="mailto:support@thehappysmashiron.com">Contact</a></li>
+          <li><a href="/games/flicklane/privacy/">Flicklane privacy</a></li>
+        </ul>
+      </div>
+      <div class="base">
+        <span>© 2026 The Happy Smash Iron</span>
+        <span>Hammered out by hand.</span>
+      </div>
     </div>
   </footer>
 </body>
