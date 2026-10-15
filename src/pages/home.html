@@ -1,0 +1,130 @@
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <div class="label">{{home_label}}</div>
+          <h1>{{hero_l1}}<br>{{hero_l2}}<br><span class="scribble">{{hero_l3}}</span></h1>
+          <p class="lead">{{hero_lead}}</p>
+          <div class="actions">
+            <a class="btn" href="{{@root}}/games/">{{hero_cta_games}}
+              <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-plain" href="{{@root}}/apps/">{{hero_cta_apps}}</a>
+          </div>
+        </div>
+
+        <div class="anvil-stage">
+          <!-- Logodaki örs; sayfada canlı: ara sıra "tok" diye vurulur, kıvılcım çıkar. -->
+          <svg viewBox="0 0 214 150" role="img" aria-label="{{attr:anvil_alt}}">
+            <defs>
+              <mask id="face" maskUnits="userSpaceOnUse" x="0" y="0" width="214" height="150">
+                <rect width="214" height="150" fill="#fff"/>
+                <path d="M92 48Q98 39 104 48M116 48Q122 39 128 48M96 86Q110 100 124 86" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+              </mask>
+            </defs>
+            <path class="anvil" d="M56 30H182V58H158C146 60 140 70 140 86V104C140 112 152 118 172 120V134H48V120C68 118 80 112 80 104V86C80 70 72 62 58 60C38 58 18 50 8 37C6 34 8 32 11 33C26 34 40 30 56 30Z" fill="#1B1A18" mask="url(#face)"/>
+            <g fill="none" stroke="#FFB000" stroke-width="5" stroke-linecap="round">
+              <path class="spark" d="M168 20L174 8"/>
+              <path class="spark" d="M180 25L191 17"/>
+              <path class="spark" d="M186 36L197 35"/>
+            </g>
+            <path d="M2 136H212" stroke="#1B1A18" stroke-width="3" stroke-linecap="round"/>
+            <path d="M24 144H70M150 144H190" stroke="#1B1A18" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 8"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="make-h" style="padding-top: 0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{make_label}}</div>
+            <h2 id="make-h">{{make_title}}</h2>
+          </div>
+        </div>
+        <div class="drawers">
+          <a class="drawer drawer-games" href="{{@root}}/games/">
+            <svg class="doodle" viewBox="0 0 64 64" fill="none" stroke="#FFB000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 20h28c7 0 12 6 13 14l1 9c1 6-6 9-10 4l-5-6H19l-5 6c-4 5-11 2-10-4l1-9c1-8 6-14 13-14z"/>
+              <path d="M20 28v10M15 33h10"/>
+              <circle cx="42" cy="30" r="2.5"/><circle cx="48" cy="36" r="2.5"/>
+            </svg>
+            <h3>{{nav_games}}</h3>
+            <p>{{drawer_games_text}}</p>
+            <span class="go">{{drawer_games_go}}
+              <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+          <a class="drawer drawer-apps" href="{{@root}}/apps/">
+            <svg class="doodle" viewBox="0 0 64 64" fill="none" stroke="#1B1A18" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="17" y="5" width="30" height="54" rx="7"/>
+              <path d="M27 51h10M25 17h14M25 25h14M25 33h8"/>
+            </svg>
+            <h3>{{nav_apps}}</h3>
+            <p>{{drawer_apps_text}}</p>
+            <span class="go">{{drawer_apps_go}}
+              <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="bench-h" style="padding-top: 0">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{bench_label}}</div>
+            <h2 id="bench-h">{{bench_title}}</h2>
+          </div>
+          <a href="{{@root}}/games/">{{bench_all}}</a>
+        </div>
+        <article class="bench-card">
+          <a class="screen" href="{{@root}}/games/flicklane/" tabindex="-1" aria-hidden="true">
+            <img src="/games/flicklane/feature.png" alt="" width="1024" height="500">
+          </a>
+          <div class="bench-body">
+            <div class="app-title">
+              <img src="/games/flicklane/icon-192.png" alt="" width="64" height="64">
+              <div>
+                <h3>Flicklane</h3>
+                <p class="muted">{{fl_genre_short}}</p>
+              </div>
+            </div>
+            <p class="lead" style="font-size: 19px">{{fl_home_text}}</p>
+            <ul class="checks">
+              <li>{{fl_point1}}</li>
+              <li>{{fl_point2}}</li>
+              <li>{{fl_point3}}</li>
+            </ul>
+            <div class="actions" style="align-items: center">
+              <a class="btn btn-dark" href="{{@root}}/games/flicklane/">{{fl_discover}}</a>
+              <span class="sticker">{{fl_soon_play}}</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section band-dark" aria-labelledby="how-h">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{how_label}}</div>
+            <h2 id="how-h">{{how_title}}</h2>
+          </div>
+        </div>
+{{@rules}}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="hello-h">
+      <div class="wrap">
+        <div class="contact-card">
+          <div>
+            <h2 id="hello-h">{{hello_title}}</h2>
+            <p>{{hello_text}}</p>
+          </div>
+          <a class="btn btn-plain" href="mailto:support@thehappysmashiron.com">support@thehappysmashiron.com</a>
+        </div>
+      </div>
+    </section>
+  </main>

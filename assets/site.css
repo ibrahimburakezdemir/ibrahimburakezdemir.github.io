@@ -52,12 +52,12 @@ a:hover { text-decoration-color: var(--iron); }
 :focus-visible { outline: 3px solid var(--spark); outline-offset: 3px; border-radius: 6px; }
 
 .wrap { width: 100%; max-width: 1160px; margin: 0 auto; padding: 0 24px; }
-.skip { position: absolute; left: -999px; top: 8px; background: var(--spark); padding: 8px 14px; border: var(--line); border-radius: 10px; font-weight: 700; z-index: 10; }
-.skip:focus { left: 16px; }
+.skip { position: absolute; inset-inline-start: 16px; top: -120px; background: var(--spark); padding: 8px 14px; border: var(--line); border-radius: 10px; font-weight: 700; z-index: 10; }
+.skip:focus { top: 8px; }
 
 /* ---- Üst bar ---- */
 .site-header { padding-block: 22px; }
-.site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.site-header .wrap { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .logo { display: block; line-height: 0; }
 .logo img { height: 46px; width: auto; }
 .site-nav { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
@@ -69,7 +69,7 @@ a:hover { text-decoration-color: var(--iron); }
 .site-nav a[aria-current="page"] { background: var(--iron); color: var(--ash); }
 
 /* ---- Başlıklar ve metin ---- */
-h1, h2, h3 { font-weight: 800; letter-spacing: -0.03em; margin: 0; }
+h1, h2, h3 { font-weight: 800; letter-spacing: -0.03em; margin: 0; overflow-wrap: break-word; }
 h1 { font-size: clamp(44px, 7.2vw, 92px); line-height: 0.95; }
 h2 { font-size: clamp(32px, 4.4vw, 54px); line-height: 1; }
 h3 { font-size: 26px; line-height: 1.1; letter-spacing: -0.02em; }
@@ -79,7 +79,7 @@ p { margin: 0; }
 
 /* Elle çizilmiş vurgu çizgisi (SVG arka plan). */
 .scribble {
-  white-space: nowrap;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 24' preserveAspectRatio='none'%3E%3Cpath d='M4 16 C 60 6, 120 20, 180 10 S 270 8, 296 13' fill='none' stroke='%23FFB000' stroke-width='9' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat 0 92% / 100% 0.32em;
   padding-bottom: 0.04em;
 }
@@ -197,9 +197,9 @@ p { margin: 0; }
 .app-title h3 { font-size: 40px; letter-spacing: -0.035em; }
 .app-title .muted { font-size: 15px; font-weight: 600; }
 .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
-.checks li { position: relative; padding-left: 32px; color: var(--ink-2); }
+.checks li { position: relative; padding-inline-start: 32px; color: var(--ink-2); }
 .checks li::before {
-  content: ""; position: absolute; left: 0; top: 0.3em; width: 20px; height: 20px;
+  content: ""; position: absolute; inset-inline-start: 0; top: 0.3em; width: 20px; height: 20px;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect x='1' y='1' width='18' height='18' rx='5' fill='%23FFB000' stroke='%231B1A18' stroke-width='2'/%3E%3Cpath d='M5.5 10.5l3 3 6-7' fill='none' stroke='%231B1A18' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat center / contain;
 }
 .checks b { color: var(--iron); }
@@ -262,7 +262,7 @@ p { margin: 0; }
 .doc h2 { font-size: 24px; letter-spacing: -0.015em; line-height: 1.25; margin: 44px 0 12px; }
 .doc p, .doc li { color: var(--ink-2); }
 .doc p + p { margin-top: 14px; }
-.doc ul { padding-left: 1.2em; margin: 12px 0; }
+.doc ul { padding-inline-start: 1.2em; margin: 12px 0; }
 .doc li { margin: 6px 0; }
 .doc strong { color: var(--iron); font-weight: 700; }
 .updated { font-size: 15px; font-weight: 600; color: var(--ink-3); }
@@ -283,7 +283,7 @@ p { margin: 0; }
 .site-footer .wrap { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(2, minmax(0, 1fr)); gap: 40px; }
 .site-footer img { height: 42px; width: auto; }
 .site-footer h2 { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-bottom: 14px; }
-.site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; overflow-wrap: anywhere; }
 .site-footer a { color: var(--ash); text-decoration-color: transparent; }
 .site-footer a:hover { text-decoration-color: var(--spark); }
 .site-footer p { margin-top: 16px; max-width: 24em; }
@@ -315,8 +315,59 @@ p { margin: 0; }
   .bench-body, .contact-card { padding: 26px; }
   .shelf { grid-template-columns: minmax(0, 1fr); }
   .btn { width: 100%; justify-content: center; }
+  .site-footer .wrap { grid-template-columns: minmax(0, 1fr); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .btn, .drawer, .product, .drawer .go svg { transition: none; }
+}
+
+/* ---- Dil menüsü ---- */
+.lang-menu { position: relative; }
+.lang-menu summary {
+  display: flex; align-items: center; gap: 6px; cursor: pointer; list-style: none;
+  font-weight: 700; font-size: 15px; padding: 8px 12px; border: var(--line); border-radius: 10px; background: var(--paper);
+}
+.lang-menu summary::-webkit-details-marker { display: none; }
+.lang-menu summary:hover, .lang-menu[open] summary { background: var(--spark-soft); }
+.lang-menu ul {
+  position: absolute; z-index: 20; top: calc(100% + 8px); inset-inline-end: 0;
+  width: min(340px, calc(100vw - 32px)); max-height: min(70vh, 520px); overflow-y: auto;
+  margin: 0; padding: 8px; list-style: none;
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px;
+  background: var(--paper); border: var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.site-nav .lang-menu a { display: block; padding: 8px 10px; font-size: 15px; font-weight: 500; }
+.site-nav .lang-menu a[aria-current="true"] { background: var(--iron); color: var(--ash); font-weight: 700; }
+.en-tag {
+  display: inline-block; margin-inline-start: 6px; padding: 0 5px; vertical-align: 2px;
+  font-size: 11px; font-weight: 700; line-height: 1.5; border: 1.5px solid currentColor; border-radius: 4px;
+}
+
+/* ---- Sağdan sola (Arapça) ---- */
+[dir="rtl"] .arrow { transform: scaleX(-1); }
+[dir="rtl"] .drawer:hover .go .arrow { transform: scaleX(-1) translateX(4px); }
+[dir="rtl"] .sticker { transform: rotate(2deg); }
+
+/* ---- Latin dışı yazılar ----
+   Bricolage Grotesque Latin harfleriyle sınırlı; bu dillerde tüm sayfa cihazın
+   kendi yazı tipini kullanır (karışık harf görünümü olmasın diye). */
+:lang(ar) { --font: "Segoe UI", "Noto Sans Arabic", "Geeza Pro", Tahoma, sans-serif; }
+:lang(hi) { --font: "Nirmala UI", "Noto Sans Devanagari", "Kohinoor Devanagari", sans-serif; }
+:lang(zh) { --font: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif; }
+:lang(ja) { --font: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", "Noto Sans JP", sans-serif; }
+:lang(ru) { --font: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif; }
+:is(:lang(ar), :lang(hi), :lang(zh), :lang(ja), :lang(ru)) :is(h1, h2, h3, .drawer h3, .app-title h3) { letter-spacing: normal; font-weight: 700; }
+:is(:lang(ar), :lang(hi), :lang(zh), :lang(ja)) h1 { line-height: 1.2; }
+:is(:lang(ar), :lang(hi)) :is(h2, h3) { line-height: 1.3; }
+:is(:lang(ar), :lang(hi), :lang(zh), :lang(ja)) .label { letter-spacing: normal; }
+:lang(ja) :is(h1, h2, h3) { word-break: auto-phrase; }
+/* Uzun bileşik kelimeli diller: başlıklarda heceleme. */
+:is(:lang(de), :lang(nl), :lang(nb), :lang(sv), :lang(fi), :lang(hu), :lang(cs), :lang(ru)) :is(h1, h2, h3) { hyphens: auto; }
+/* Logo ve marka adları her zaman kendi yazı tipiyle. */
+.app-title h3, .product h2 { font-family: "Bricolage Grotesque", var(--font); }
+/* Dil menüsü: dar ekranda üst barın tüm genişliğine yayılır. */
+@media (max-width: 640px) {
+  .lang-menu { position: static; }
+  .lang-menu ul { inset-inline: 16px; width: auto; top: calc(100% - 6px); }
 }

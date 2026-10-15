@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{@hreflang}}" dir="{{@dir}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{@title}}</title>
+  <meta name="description" content="{{@desc}}">
+  <meta name="theme-color" content="#F3F3F0">
+  <meta property="og:title" content="{{@title}}">
+  <meta property="og:description" content="{{@desc}}">
+  <meta property="og:image" content="https://thehappysmashiron.com/assets/brand/icon-512.png">
+  <link rel="canonical" href="https://thehappysmashiron.com{{@url}}">
+{{@alternates}}
+  <link rel="icon" href="/assets/brand/hsi-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/BricolageGrotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{skip}}</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="{{@root}}/"><img src="/assets/brand/hsi-logo.svg" alt="The Happy Smash Iron" width="220" height="46"></a>
+      <nav class="site-nav" aria-label="{{attr:nav_label}}">
+        <a href="{{@root}}/games/"{{@cur_games}}>{{nav_games}}</a>
+        <a href="{{@root}}/apps/"{{@cur_apps}}>{{nav_apps}}</a>
+        <a href="{{@root}}/studio/"{{@cur_studio}}>{{nav_studio}}</a>
+        <a href="mailto:support@thehappysmashiron.com">{{nav_contact}}</a>
+{{@langmenu}}
+      </nav>
+    </div>
+  </header>

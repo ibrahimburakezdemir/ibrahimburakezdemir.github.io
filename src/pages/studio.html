@@ -1,0 +1,49 @@
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">{{studio_label}}</div>
+        <h1>{{studio_h1_plain}}{{@sp}}<span class="scribble">{{studio_h1_mark}}</span></h1>
+      </div>
+    </section>
+
+    <section class="studio-intro" style="padding-bottom: 88px">
+      <div class="wrap">
+        <div class="prose">
+          <p>{{studio_p1}}</p>
+          <p>{{studio_p2}}</p>
+          <p>{{studio_p3}}</p>
+        </div>
+        <aside class="note-card" aria-label="{{attr:glance_label}}">
+          <dl>
+            <div><dt>{{glance_make_dt}}</dt><dd>{{glance_make_dd}}</dd></div>
+            <div><dt>{{glance_bench_dt}}</dt><dd><a href="{{@root}}/games/flicklane/">{{glance_bench_dd}}</a></dd></div>
+            <div><dt>{{glance_hello_dt}}</dt><dd><a href="mailto:support@thehappysmashiron.com">support@thehappysmashiron.com</a></dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section band-dark" aria-labelledby="how-h">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="label">{{how_label}}</div>
+            <h2 id="how-h">{{how_title}}</h2>
+          </div>
+        </div>
+{{@rules}}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="hello-h">
+      <div class="wrap">
+        <div class="contact-card">
+          <div>
+            <h2 id="hello-h">{{studio_hello_title}}</h2>
+            <p>{{studio_hello_text}}</p>
+          </div>
+          <a class="btn btn-plain" href="mailto:support@thehappysmashiron.com">support@thehappysmashiron.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
