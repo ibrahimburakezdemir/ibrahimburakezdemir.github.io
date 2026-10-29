@@ -1,5 +1,6 @@
 ﻿# Siteyi src/ şablonlarından ve src/i18n/*.json çevirilerinden üretir.
 # Kullanım (repo kökünden):  powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1
+#   macOS / Linux:            pwsh -NoProfile -File tools/build.ps1
 #
 # Şablon sözdizimi:
 #   {{anahtar}}       çeviri metni, olduğu gibi (HTML içerebilir)
@@ -61,7 +62,7 @@ $Pages = @(
 )
 
 if ($AllowMissing) {
-  $Langs = @($Langs | Where-Object { Test-Path (Join-Path $Src "i18n\$($_.code).json") })
+  $Langs = @($Langs | Where-Object { Test-Path (Join-Path $Src "i18n/$($_.code).json") })
   Write-Host "Diller: $(($Langs | ForEach-Object { $_.code }) -join ', ')"
 }
 
@@ -75,7 +76,7 @@ function Prefix($code) { if ($code -eq 'en') { '' } else { "/$code" } }
 # ---- Çevirileri yükle ve anahtarları İngilizceye göre denetle ----
 $Dicts = @{}
 foreach ($l in $Langs) {
-  $file = Join-Path $Src "i18n\$($l.code).json"
+  $file = Join-Path $Src "i18n/$($l.code).json"
   if (-not (Test-Path $file)) { throw "Eksik çeviri dosyası: $file" }
   $obj = (Read-Text $file) | ConvertFrom-Json
   $h = @{}
@@ -98,9 +99,9 @@ foreach ($l in $Langs) {
 }
 if ($problems) { $problems | ForEach-Object { Write-Host $_ -ForegroundColor Red }; throw 'Çeviri denetimi başarısız.' }
 
-$Head = Read-Text (Join-Path $Src 'partials\head.html')
-$Footer = Read-Text (Join-Path $Src 'partials\footer.html')
-$Rules = Read-Text (Join-Path $Src 'partials\rules.html')
+$Head = Read-Text (Join-Path $Src 'partials/head.html')
+$Footer = Read-Text (Join-Path $Src 'partials/footer.html')
+$Rules = Read-Text (Join-Path $Src 'partials/rules.html')
 $Globe = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.8 2.6 4 5.6 4 9s-1.2 6.4-4 9c-2.8-2.6-4-5.6-4-9s1.2-6.4 4-9z"/></svg>'
 
 function Render([string]$tpl, [hashtable]$dict, [hashtable]$vars) {
@@ -141,7 +142,7 @@ foreach ($page in $Pages) {
   foreach ($l in $pageLangs) {
     $d = $Dicts[$l.code]
     $prefix = Prefix $l.code
-    $body = (Read-Text (Join-Path $Src "pages\$($page.src.Replace('{code}', $l.code))")).Replace('{{@rules}}', $Rules.TrimEnd("`n"))
+    $body = (Read-Text (Join-Path $Src "pages/$($page.src.Replace('{code}', $l.code))")).Replace('{{@rules}}', $Rules.TrimEnd("`n"))
     $tpl = $Head + "`n" + $body.TrimEnd("`n") + "`n`n" + $Footer
     $hwp = if ($HwPrivacyLangs -contains $l.code) { $l } else { @{ code = 'en'; tag = 'en' } }
 
@@ -152,7 +153,7 @@ foreach ($page in $Pages) {
     }
     $menu = @(
       '        <details class="lang-menu">',
-      "          <summary aria-label=`"$(Enc $d['lang_label']): $(Enc $d['lang_name'])`">$Globe<span>$($l.code.ToUpper())</span></summary>",
+      "          <summary aria-label=`"$(Enc $d['lang_label']): $(Enc $d['lang_name'])`">$Globe<span>$($l.code.ToUpperInvariant())</span></summary>",
       '          <ul>'
     ) + $items + @('          </ul>', '        </details>')
 
@@ -177,7 +178,7 @@ foreach ($page in $Pages) {
 
     $html = Render $tpl $d $vars
     $rel = if ($page.path.EndsWith('/')) { "$prefix$($page.path)index.html" } else { $page.path }
-    $out = Join-Path $Root ($rel.TrimStart('/') -replace '/', '\')
+    $out = Join-Path $Root $rel.TrimStart('/')
     New-Item -ItemType Directory -Force (Split-Path $out) | Out-Null
     [System.IO.File]::WriteAllText($out, $html, $Utf8)
     $count++
