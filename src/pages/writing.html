@@ -1,0 +1,18 @@
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <div class="label">{{nav_writing}}</div>
+        <h1>{{writing_h1_plain}}{{@sp}}<span class="scribble">{{writing_h1_mark}}</span></h1>
+        <p class="lead">{{writing_lead}}</p>
+      </div>
+    </section>
+
+    <div class="wrap writing-page">
+      <nav class="tabs" aria-label="{{attr:writing_tabs_label}}">
+        <a href="{{@root}}/writing/"{{@tab_all}}>{{writing_tab_all}}</a>
+        <a href="{{@root}}/writing/articles/"{{@tab_articles}}>{{writing_tab_articles}}</a>
+        <a href="{{@root}}/writing/news/"{{@tab_news}}>{{writing_tab_news}}</a>
+      </nav>
+{{@writing_list}}
+    </div>
+  </main>

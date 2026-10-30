@@ -1,0 +1,12 @@
+  <main id="main" class="wrap doc post">
+    <p class="crumbs"><a href="{{@root}}/writing/">{{nav_writing}}</a> / <a href="{{@root}}/writing/{{@post_tab_path}}/">{{@post_tab}}</a></p>
+    <h1>{{@post_title}}</h1>
+    <p class="post-sub">{{@post_summary}}</p>
+    <p class="post-meta">{{@post_byline}}<time datetime="{{@post_iso}}">{{@post_date}}</time> · <span class="read">{{@post_read}}</span></p>
+{{@post_cover}}
+    <div class="post-body">
+{{@post_body}}
+    </div>
+{{@post_original}}
+    <p class="post-back"><a href="{{@root}}/writing/">{{writing_back}}</a></p>
+  </main>

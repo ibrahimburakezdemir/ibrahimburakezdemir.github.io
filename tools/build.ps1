@@ -1,16 +1,21 @@
 ﻿# Siteyi src/ şablonlarından ve src/i18n/*.json çevirilerinden üretir.
 # Kullanım (repo kökünden):  pwsh -NoProfile -File tools/build.ps1
-# PowerShell 7 (pwsh) gerekir: haber yazıları ConvertFrom-Markdown ile çevrilir,
+# PowerShell 7 (pwsh) gerekir: yazılar ConvertFrom-Markdown ile çevrilir,
 # Windows PowerShell 5.1'de bu komut yok. Windows'ta: winget install Microsoft.PowerShell
 #
-# Haber yazıları: src/news/<adres>/<dil>.md (dil: en ya da tr). Dosyanın başı:
+# Yazılar (haber ve makale): src/writing/<adres>/<dil>.md (dil: en ya da tr). Dosyanın başı:
 #   ---
 #   title: Başlık
+#   type: article                    (article = makale, news = haber; yazılmazsa article)
 #   date: 2026-10-30
-#   summary: Listede ve arama sonuçlarında görünen bir-iki cümle
-#   image: /news/<adres>/cover.jpg   (isteğe bağlı; 1024×500 önerilir)
+#   summary: Başlığın altında, listede ve arama sonuçlarında görünen bir-iki cümle
+#   author: Ad Soyad                 (isteğe bağlı; yazılmazsa stüdyo adına)
+#   image: /writing/<adres>/cover.jpg   (isteğe bağlı kapak; 1024×500 önerilir)
+#   canonical: https://medium.com/...   (isteğe bağlı; yazı önce başka yerde yayımlandıysa asıl adresi)
 #   ---
-# ardından Markdown metin. Görseller yayın klasörüne (news/<adres>/) konur.
+# ardından Markdown metin (başlıklar, listeler, alıntı, kod, tablo, dipnot).
+# Görseller yayın klasörüne (writing/<adres>/) konur. Görselin hemen altındaki
+# *italik* satır görsel açıklaması olarak gösterilir.
 # Yazının olmadığı dillerde listede İngilizcesi (yoksa Türkçesi) gösterilir.
 #
 # Şablon sözdizimi:
@@ -63,7 +68,9 @@ $Pages = @(
   @{ src = 'studio.html';    path = '/studio/';                  title = 'studio_title'; desc = 'studio_desc'; nav = 'studio' },
   @{ src = 'flicklane.html'; path = '/games/flicklane/';         title = 'fl_title';     desc = 'fl_desc';     nav = 'games' },
   @{ src = 'hourwell.html';  path = '/apps/hourwell/';           title = 'hw_title';     desc = 'hw_desc';     nav = 'apps' },
-  @{ src = 'news.html';      path = '/news/';                    title = 'news_title';   desc = 'news_desc';   nav = 'news' },
+  @{ src = 'writing.html';   path = '/writing/';                 title = 'writing_title'; desc = 'writing_desc'; nav = 'writing'; tab = '' },
+  @{ src = 'writing.html';   path = '/writing/news/';            title = 'writing_title'; desc = 'writing_desc'; nav = 'writing'; tab = 'news' },
+  @{ src = 'writing.html';   path = '/writing/articles/';        title = 'writing_title'; desc = 'writing_desc'; nav = 'writing'; tab = 'article' },
   @{ src = 'privacy.html';   path = '/games/flicklane/privacy/'; nav = 'games'; only = 'en'; fallback = '/games/flicklane/';
      titleText = 'Flicklane Privacy Policy · The Happy Smash Iron'; descText = 'How the Flicklane mobile game handles your information.' },
   @{ src = 'hourwell-privacy-{code}.html'; path = '/apps/hourwell/privacy/'; nav = 'apps'; only = @('en', 'tr'); fallback = '/apps/hourwell/';
@@ -135,19 +142,23 @@ function Render([string]$tpl, [hashtable]$dict, [hashtable]$vars) {
   [regex]::Replace($tpl, '\{\{(attr:)?(@?)([A-Za-z0-9_]+)\}\}', $eval)
 }
 
-# ---- Haber yazılarını yükle (en yeni önce) ----
-$NewsLangs = @('en', 'tr')
+# ---- Yazıları yükle (en yeni önce) ----
+$PostLangs = @('en', 'tr')
+$TypeLabels = @{ news = 'writing_type_news'; article = 'writing_type_article' }   # tür -> rozet metni
+$TabLabels = @{ news = 'writing_tab_news'; article = 'writing_tab_articles' }     # tür -> sekme metni
+$TabPaths = @{ news = 'news'; article = 'articles' }                              # tür -> sekmenin adresi
 $Posts = @()
-$newsDir = Join-Path $Src 'news'
-if (Test-Path $newsDir) {
-  if (-not (Get-Command ConvertFrom-Markdown -ErrorAction SilentlyContinue)) { throw 'Haber yazıları için PowerShell 7 (pwsh) gerekli.' }
-  foreach ($dir in Get-ChildItem $newsDir -Directory) {
-    if ($dir.Name -cnotmatch '^[a-z0-9]+(-[a-z0-9]+)*$') { throw "news/$($dir.Name): adres sadece küçük harf, rakam ve - içerebilir" }
+$writingDir = Join-Path $Src 'writing'
+if (Test-Path $writingDir) {
+  if (-not (Get-Command ConvertFrom-Markdown -ErrorAction SilentlyContinue)) { throw 'Yazılar için PowerShell 7 (pwsh) gerekli.' }
+  foreach ($dir in Get-ChildItem $writingDir -Directory) {
+    if ($dir.Name -cnotmatch '^[a-z0-9]+(-[a-z0-9]+)*$') { throw "writing/$($dir.Name): adres sadece küçük harf, rakam ve - içerebilir" }
+    if ($TabPaths.Values -ccontains $dir.Name) { throw "writing/$($dir.Name): bu adres liste sekmesine ayrılmış, başka bir ad seçin" }
     $versions = @{}
     foreach ($f in Get-ChildItem $dir.FullName -File) {
-      $where = "news/$($dir.Name)/$($f.Name)"
+      $where = "writing/$($dir.Name)/$($f.Name)"
       if ($f.Extension -ne '.md') { continue }
-      if ($NewsLangs -cnotcontains $f.BaseName) { throw "${where}: dosya adı $($NewsLangs -join '.md ya da ').md olmalı" }
+      if ($PostLangs -cnotcontains $f.BaseName) { throw "${where}: dosya adı $($PostLangs -join '.md ya da ').md olmalı" }
       $m = [regex]::Match((Read-Text $f.FullName), '\A---\n(.*?)\n---\n(.*)\z', 'Singleline')
       if (-not $m.Success) { throw "${where}: başta --- satırları arasında title/date/summary bloğu yok" }
       $meta = @{}
@@ -155,55 +166,66 @@ if (Test-Path $newsDir) {
         if ($line -match '^\s*([a-z]+)\s*:\s*(.*?)\s*$') { $meta[$Matches[1]] = $Matches[2] -replace '^"(.*)"$', '$1' }
       }
       foreach ($k in 'title', 'date', 'summary') { if (-not $meta[$k]) { throw "${where}: '$k' eksik" } }
+      $type = if ($meta.type) { $meta.type } else { 'article' }
+      if (-not $TypeLabels.ContainsKey($type)) { throw "${where}: type article ya da news olmalı" }
+      if ($meta.canonical -and $meta.canonical -notmatch '^https?://[^\s"<>]+$') { throw "${where}: canonical tam bir adres olmalı (https://...)" }
       $date = [datetime]::MinValue
       if (-not [datetime]::TryParseExact($meta.date, 'yyyy-MM-dd', [cultureinfo]::InvariantCulture, 'None', [ref]$date)) { throw "${where}: tarih YYYY-AA-GG biçiminde olmalı" }
+      $body = (ConvertFrom-Markdown -InputObject $m.Groups[2].Value).Html.Trim()
+      $words = @(($body -replace '<[^>]+>', ' ') -split '\s+' | Where-Object { $_ }).Count
       $versions[$f.BaseName] = @{
-        code = $f.BaseName; title = $meta.title; summary = $meta.summary; image = $meta.image; date = $date
-        body = (ConvertFrom-Markdown -InputObject $m.Groups[2].Value).Html.Trim()
+        code = $f.BaseName; title = $meta.title; summary = $meta.summary; type = $type; date = $date
+        author = $meta.author; image = $meta.image; canonical = $meta.canonical
+        body = $body; minutes = [math]::Max(1, [math]::Round($words / 220))  # dakikada ~220 kelime
       }
     }
-    if ($versions.Count) { $Posts += @{ slug = $dir.Name; versions = $versions; date = ($versions.Values | ForEach-Object { $_.date } | Sort-Object -Descending | Select-Object -First 1) } }
+    if ($versions.Count) {
+      $types = @($versions.Values | ForEach-Object { $_.type } | Select-Object -Unique)
+      if ($types.Count -gt 1) { throw "writing/$($dir.Name): type her dilde aynı olmalı" }
+      $Posts += @{ slug = $dir.Name; versions = $versions; type = $types[0]; date = ($versions.Values | ForEach-Object { $_.date } | Sort-Object -Descending | Select-Object -First 1) }
+    }
   }
   $Posts = @($Posts | Sort-Object @{ e = { $_.date }; Descending = $true }, @{ e = { $_.slug } })
 }
 
-# Her yazı, yazıldığı dillerde ayrı sayfa; diğer dillerde menü haber listesine gider.
+# Her yazı, yazıldığı dillerde ayrı sayfa; diğer dillerde menü yazı listesine gider.
 foreach ($post in $Posts) {
-  $codes = @($NewsLangs | Where-Object { $post.versions.ContainsKey($_) })
+  $codes = @($PostLangs | Where-Object { $post.versions.ContainsKey($_) })
   $titles = @{}; $descs = @{}
   foreach ($c in $codes) { $titles[$c] = "$($post.versions[$c].title) · The Happy Smash Iron"; $descs[$c] = $post.versions[$c].summary }
-  $Pages += @{ src = 'news-post.html'; path = "/news/$($post.slug)/"; nav = 'news'; only = $codes; fallback = '/news/'; post = $post; titleText = $titles; descText = $descs }
+  $Pages += @{ src = 'writing-post.html'; path = "/writing/$($post.slug)/"; nav = 'writing'; only = $codes; fallback = '/writing/'; post = $post; titleText = $titles; descText = $descs }
 }
 
 $Arrow = '<svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
 
-# Tarih, sayfanın dilinde (biçim çeviri dosyasındaki news_date_format)
-function NewsDate($date, $l) { $date.ToString($Dicts[$l.code]['news_date_format'], [cultureinfo]::GetCultureInfo($l.tag)) }
+# Tarih ve okuma süresi, sayfanın dilinde (biçimler çeviri dosyasında)
+function PostDate($date, $l) { $date.ToString($Dicts[$l.code]['writing_date_format'], [cultureinfo]::GetCultureInfo($l.tag)) }
+function ReadTime($v, $l) { $Dicts[$l.code]['writing_min_read'].Replace('{n}', [string]$v.minutes) }
 
-# Haber kartları; sayfanın dilinde yazı yoksa İngilizcesi, o da yoksa Türkçesi (dil etiketiyle)
-function NewsCards($l, [int]$max, [string]$hx) {
+# Yazı kartları ($type: sadece bu tür); sayfanın dilinde yazı yoksa İngilizcesi, o da yoksa Türkçesi (dil etiketiyle)
+function PostCards($l, [int]$max, [string]$hx, [string]$type) {
   $d = $Dicts[$l.code]
-  $list = @($Posts | Select-Object -First $(if ($max) { $max } else { [int]::MaxValue }))
-  if (-not $list) { return "        <div class=`"placeholder`">`n          <p>$($d['news_empty'])</p>`n        </div>" }
+  $list = @($Posts | Where-Object { -not $type -or $_.type -eq $type } | Select-Object -First $(if ($max) { $max } else { [int]::MaxValue }))
+  if (-not $list) { return "        <div class=`"placeholder`">`n          <p>$($d['writing_empty'])</p>`n        </div>" }
   $cards = foreach ($post in $list) {
     $v = foreach ($c in @($l.code, 'en', 'tr')) { if ($post.versions.ContainsKey($c)) { $post.versions[$c]; break } }
     $vtag = $TagOf[$v.code]
     $lang = if ($v.code -ne $l.code) { " lang=`"$vtag`"" + $(if ($l.rtl) { ' dir="ltr"' }) } else { '' }
     $badge = if ($v.code -ne $l.code) { " <span class=`"en-tag`" lang=`"$vtag`">$($v.code.ToUpperInvariant())</span>" } else { '' }
-    $lines = @("          <a class=`"news-card`" href=`"$(Prefix $v.code)/news/$($post.slug)/`" hreflang=`"$vtag`">")
+    $lines = @("          <a class=`"post-card`" href=`"$(Prefix $v.code)/writing/$($post.slug)/`" hreflang=`"$vtag`">")
     if ($v.image) { $lines += "            <div class=`"thumb`"><img src=`"$(Enc $v.image)`" alt=`"`" width=`"1024`" height=`"500`" loading=`"lazy`"></div>" }
     $lines += @(
       '            <div class="body">',
-      "              <p class=`"meta`"><time datetime=`"$($v.date.ToString('yyyy-MM-dd'))`">$(NewsDate $v.date $l)</time>$badge</p>",
+      "              <p class=`"meta`"><span class=`"kind`">$($d[$TypeLabels[$post.type]])</span> <time datetime=`"$($v.date.ToString('yyyy-MM-dd'))`">$(PostDate $v.date $l)</time> · <span class=`"read`">$(ReadTime $v $l)</span>$badge</p>",
       "              <$hx$lang>$(Enc $v.title)</$hx>",
       "              <p$lang>$(Enc $v.summary)</p>",
-      "              <span class=`"go`">$($d['news_read'])`n                $Arrow</span>",
+      "              <span class=`"go`">$($d['writing_read'])`n                $Arrow</span>",
       '            </div>',
       '          </a>'
     )
     $lines -join "`n"
   }
-  "        <div class=`"news-list`">`n$($cards -join "`n")`n        </div>"
+  "        <div class=`"post-list`">`n$($cards -join "`n")`n        </div>"
 }
 
 $sitemap = New-Object System.Collections.Generic.List[string]
@@ -249,7 +271,6 @@ foreach ($page in $Pages) {
       dir        = $(if ($l.rtl) { 'rtl' } else { 'ltr' })
       title      = Enc $(if ($page.titleText) { PerLang $page.titleText $l.code } else { $d[$page.title] })
       desc       = Enc $(if ($page.descText) { PerLang $page.descText $l.code } else { $d[$page.desc] })
-      url        = $prefix + $page.path
       root       = $prefix
       shots      = $(if ($l.code -eq 'tr') { 'tr' } else { 'en' })  # Hourwell ekran görüntüleri: Türkçe ya da İngilizce
       sp         =$(if ($l.code -in @('zh', 'ja')) { '' } else { ' ' })  # Çince/Japoncada kelime arası boşluk yok
@@ -258,22 +279,41 @@ foreach ($page in $Pages) {
       cur_games  = $(if ($page.nav -eq 'games') { ' aria-current="page"' } else { '' })
       cur_apps   = $(if ($page.nav -eq 'apps') { ' aria-current="page"' } else { '' })
       cur_studio = $(if ($page.nav -eq 'studio') { ' aria-current="page"' } else { '' })
-      cur_news   = $(if ($page.nav -eq 'news') { ' aria-current="page"' } else { '' })
+      cur_writing = $(if ($page.nav -eq 'writing') { ' aria-current="page"' } else { '' })
+      canonical  = "$Site$prefix$($page.path)"
       og_image   = "$Site/assets/brand/icon-512.png"
       en_only    = $(if ($l.code -eq 'en') { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
       hw_privacy = "href=`"$(Prefix $hwp.code)/apps/hourwell/privacy/`" hreflang=`"$($hwp.tag)`""
       hw_privacy_tag = $(if ($hwp.code -eq $l.code) { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
     }
-    if ($page.src -eq 'home.html') { $vars.latest_news = NewsCards $l 3 'h3' }
-    if ($page.src -eq 'news.html') { $vars.news_list = NewsCards $l 0 'h2' }
+    $external = $false  # yazının asıl adresi başka sitede mi (sitemap'e girmez)
+    if ($page.src -eq 'home.html') { $vars.latest_writing = PostCards $l 3 'h3' '' }
+    if ($page.src -eq 'writing.html') {
+      $vars.writing_list = PostCards $l 0 'h2' $page.tab
+      foreach ($t in '', 'news', 'article') { $vars["tab_$(if ($t) { $TabPaths[$t] } else { 'all' })"] = $(if ($page.tab -eq $t) { ' aria-current="page"' } else { '' }) }
+      if ($page.tab) { $vars.title = Enc "$($d[$TabLabels[$page.tab]]) · $($d[$page.title])" }
+    }
     if ($page.post) {
       $v = $page.post.versions[$l.code]
       $vars.post_title = Enc $v.title
+      $vars.post_summary = Enc $v.summary
+      $vars.post_kind = $d[$TypeLabels[$v.type]]
+      $vars.post_tab = $d[$TabLabels[$v.type]]
+      $vars.post_tab_path = $TabPaths[$v.type]
+      $vars.post_byline = $(if ($v.author) { "<span class=`"author`">$(Enc $v.author)</span> · " } else { '' })
       $vars.post_iso = $v.date.ToString('yyyy-MM-dd')
-      $vars.post_date = NewsDate $v.date $l
+      $vars.post_date = PostDate $v.date $l
+      $vars.post_read = ReadTime $v $l
       $vars.post_body = $v.body
       $vars.post_cover = $(if ($v.image) { "    <img class=`"post-cover`" src=`"$(Enc $v.image)`" alt=`"`" width=`"1024`" height=`"500`">" } else { '' })
+      $vars.post_original = ''
       if ($v.image -like '/*') { $vars.og_image = Enc "$Site$($v.image)" }
+      if ($v.canonical) {
+        $external = $true
+        $vars.canonical = Enc $v.canonical
+        $link = "<a href=`"$(Enc $v.canonical)`">$(Enc (([uri]$v.canonical).Host -replace '^www\.', ''))</a>"
+        $vars.post_original = "    <p class=`"post-original`">$($d['writing_original'].Replace('{link}', $link))</p>"
+      }
     }
 
     $html = Render $tpl $d $vars
@@ -283,11 +323,28 @@ foreach ($page in $Pages) {
     [System.IO.File]::WriteAllText($out, $html, $Utf8)
     $count++
 
-    if (-not $page.noindex -and $pageLangs.Count -gt 1) {
+    $indexed = -not $page.noindex -and -not $external
+    if ($indexed -and $pageLangs.Count -gt 1) {
       $links = ($pageLangs | ForEach-Object { "    <xhtml:link rel=`"alternate`" hreflang=`"$($_.tag)`" href=`"$Site$(Prefix $_.code)$($page.path)`"/>" }) -join "`n"
       $sitemap.Add("  <url>`n    <loc>$Site$prefix$($page.path)</loc>`n$links`n  </url>")
-    } elseif (-not $page.noindex) {
+    } elseif ($indexed) {
       $sitemap.Add("  <url>`n    <loc>$Site$prefix$($page.path)</loc>`n  </url>")
+    }
+  }
+}
+
+# Silinen ya da o dilden kaldırılan yazıların eski sayfaları; klasördeki görseller kalır.
+foreach ($l in $Langs) {
+  $dir = Join-Path $Root "$(Prefix $l.code)/writing".TrimStart('/')
+  if (-not (Test-Path $dir)) { continue }
+  foreach ($sub in Get-ChildItem $dir -Directory) {
+    if ($TabPaths.Values -ccontains $sub.Name) { continue }
+    $post = $Posts | Where-Object { $_.slug -ceq $sub.Name }
+    $page = Join-Path $sub.FullName 'index.html'
+    if ((-not $post -or -not $post.versions.ContainsKey($l.code)) -and (Test-Path $page)) {
+      Remove-Item $page
+      if (-not (Get-ChildItem $sub.FullName -Force)) { Remove-Item $sub.FullName }
+      Write-Host "Kaldırıldı: $(Prefix $l.code)/writing/$($sub.Name)/"
     }
   }
 }

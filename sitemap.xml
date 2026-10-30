@@ -2509,422 +2509,1258 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/apps/hourwell/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/tr/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/tr/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/es/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/es/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/fr/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/fr/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/de/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/de/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/it/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/it/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/pt/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/pt/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/nl/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/nl/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/no/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/no/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/sv/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/sv/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/fi/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/fi/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/cs/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/cs/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/hu/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/hu/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/ru/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/ru/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/zh/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/zh/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/ja/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/ja/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/hi/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/hi/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/ms/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/ms/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/ar/news/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/news/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/news/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/news/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/news/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/news/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/news/"/>
-    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/news/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/news/"/>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/news/"/>
-    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/news/"/>
-    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/news/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/news/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/news/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/news/"/>
-    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/news/"/>
-    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/news/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/news/"/>
+    <loc>https://thehappysmashiron.com/ar/writing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/tr/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/es/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/fr/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/de/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/it/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/pt/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/nl/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/no/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/sv/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/fi/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/cs/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/hu/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ru/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/zh/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ja/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/hi/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ms/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ar/writing/news/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/news/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/news/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/tr/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/es/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/fr/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/de/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/it/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/pt/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/nl/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/no/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/sv/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/fi/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/cs/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/hu/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ru/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/zh/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ja/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/hi/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ms/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
+  </url>
+  <url>
+    <loc>https://thehappysmashiron.com/ar/writing/articles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehappysmashiron.com/es/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehappysmashiron.com/fr/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://thehappysmashiron.com/de/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehappysmashiron.com/it/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://thehappysmashiron.com/pt/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://thehappysmashiron.com/nl/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="nb" href="https://thehappysmashiron.com/no/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://thehappysmashiron.com/sv/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://thehappysmashiron.com/fi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://thehappysmashiron.com/cs/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://thehappysmashiron.com/hu/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://thehappysmashiron.com/ru/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://thehappysmashiron.com/zh/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://thehappysmashiron.com/ja/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://thehappysmashiron.com/hi/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://thehappysmashiron.com/ms/writing/articles/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://thehappysmashiron.com/ar/writing/articles/"/>
   </url>
   <url>
     <loc>https://thehappysmashiron.com/games/flicklane/privacy/</loc>
@@ -2940,13 +3776,13 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/apps/hourwell/privacy/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/news/news-page-is-open/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/news-page-is-open/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/news-page-is-open/"/>
+    <loc>https://thehappysmashiron.com/writing/writing-is-open/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/writing-is-open/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/writing-is-open/"/>
   </url>
   <url>
-    <loc>https://thehappysmashiron.com/tr/news/news-page-is-open/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/news/news-page-is-open/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/news/news-page-is-open/"/>
+    <loc>https://thehappysmashiron.com/tr/writing/writing-is-open/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehappysmashiron.com/writing/writing-is-open/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://thehappysmashiron.com/tr/writing/writing-is-open/"/>
   </url>
 </urlset>
