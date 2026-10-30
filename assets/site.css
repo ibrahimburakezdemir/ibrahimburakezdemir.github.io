@@ -59,7 +59,7 @@ a:hover { text-decoration-color: var(--iron); }
 .site-header { padding-block: 22px; }
 .site-header .wrap { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
 .logo { display: block; line-height: 0; }
-.logo img { height: 46px; width: auto; }
+.logo img { height: 57px; width: auto; }
 .site-nav { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .site-nav a {
   font-weight: 600; font-size: 16px; text-decoration: none;
@@ -299,7 +299,7 @@ p { margin: 0; }
 /* ---- Alt bilgi ---- */
 .site-footer { background: var(--iron); color: #C9C6BE; padding-block: 56px 40px; }
 .site-footer .wrap { display: grid; grid-template-columns: minmax(0, 1.4fr) repeat(2, minmax(0, 1fr)); gap: 40px; }
-.site-footer img { height: 42px; width: auto; }
+.site-footer img { height: 52px; width: auto; }
 .site-footer h2 { font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ash); margin-bottom: 14px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; overflow-wrap: anywhere; }
 .site-footer a { color: var(--ash); text-decoration-color: transparent; }
@@ -322,7 +322,7 @@ p { margin: 0; }
   body { font-size: 17px; }
   .wrap { padding: 0 16px; }
   .site-header .wrap { justify-content: center; }
-  .logo img { height: 40px; }
+  .logo img { height: 50px; }
   .site-nav { justify-content: center; }
   .site-nav a { padding: 8px 10px; }
   .hero { padding-block: 16px 64px; }
