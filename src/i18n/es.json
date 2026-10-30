@@ -5,6 +5,7 @@
   "nav_games": "Juegos",
   "nav_apps": "Apps",
   "nav_studio": "Estudio",
+  "nav_news": "Noticias",
   "nav_contact": "Contacto",
   "lang_label": "Idioma",
   "footer_tagline": "Un estudio independiente que crea juegos pequeños y apps prácticas.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Copias de seguridad y sincronización en la nube",
   "plan_pro_note": "Mensual, anual o un pago único de por vida. El plan anual empieza con 7 días de prueba gratis.",
   "hw_help_title": "¿Preguntas sobre Hourwell?",
-  "hw_help_text": "Escríbenos. Una persona de verdad lee cada mensaje."
+  "hw_help_text": "Escríbenos. Una persona de verdad lee cada mensaje.",
+
+  "news_title": "Noticias · The Happy Smash Iron",
+  "news_desc": "Noticias y novedades de The Happy Smash Iron: lanzamientos, nuevas versiones y notas desde el taller.",
+  "news_h1_plain": "Noticias del",
+  "news_h1_mark": "taller.",
+  "news_lead": "Lanzamientos, novedades y notas entre bastidores sobre nuestros juegos y apps. Las entradas se publican en inglés y turco.",
+  "news_empty": "Todavía no hay nada. La primera historia está en el yunque.",
+  "news_read": "Leer más",
+  "news_back": "Todas las noticias",
+  "home_news_title": "Lo último del taller.",
+  "news_date_format": "d 'de' MMMM 'de' yyyy"
 }

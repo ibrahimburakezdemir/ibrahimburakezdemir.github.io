@@ -5,6 +5,7 @@
   "nav_games": "Játékok",
   "nav_apps": "Appok",
   "nav_studio": "Stúdió",
+  "nav_news": "Hírek",
   "nav_contact": "Kapcsolat",
   "lang_label": "Nyelv",
   "footer_tagline": "Független stúdió, amely kis játékokat és hasznos appokat készít.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Biztonsági mentés és felhőszinkron",
   "plan_pro_note": "Havi vagy éves előfizetés, vagy egyszeri, örökös vásárlás. Az éves csomag 7 napos ingyenes próbaidőszakkal indul.",
   "hw_help_title": "Kérdésed van a Hourwellről?",
-  "hw_help_text": "Írj nekünk! Minden üzenetet egy valódi ember olvas el."
+  "hw_help_text": "Írj nekünk! Minden üzenetet egy valódi ember olvas el.",
+
+  "news_title": "Hírek · The Happy Smash Iron",
+  "news_desc": "Hírek és frissítések a The Happy Smash Irontól: megjelenések, új verziók és jegyzetek a műhelyből.",
+  "news_h1_plain": "Hírek a",
+  "news_h1_mark": "műhelyből.",
+  "news_lead": "Megjelenések, frissítések és kulisszatitkok a játékainkról és alkalmazásainkról. A bejegyzések angolul és törökül jelennek meg.",
+  "news_empty": "Még nincs itt semmi. Az első írás már az üllőn van.",
+  "news_read": "Tovább olvasom",
+  "news_back": "Összes hír",
+  "home_news_title": "A legfrissebbek a műhelyből.",
+  "news_date_format": "yyyy. MMMM d."
 }

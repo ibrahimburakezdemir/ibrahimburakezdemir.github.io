@@ -1,6 +1,17 @@
 ﻿# Siteyi src/ şablonlarından ve src/i18n/*.json çevirilerinden üretir.
-# Kullanım (repo kökünden):  powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1
-#   macOS / Linux:            pwsh -NoProfile -File tools/build.ps1
+# Kullanım (repo kökünden):  pwsh -NoProfile -File tools/build.ps1
+# PowerShell 7 (pwsh) gerekir: haber yazıları ConvertFrom-Markdown ile çevrilir,
+# Windows PowerShell 5.1'de bu komut yok. Windows'ta: winget install Microsoft.PowerShell
+#
+# Haber yazıları: src/news/<adres>/<dil>.md (dil: en ya da tr). Dosyanın başı:
+#   ---
+#   title: Başlık
+#   date: 2026-10-30
+#   summary: Listede ve arama sonuçlarında görünen bir-iki cümle
+#   image: /news/<adres>/cover.jpg   (isteğe bağlı; 1024×500 önerilir)
+#   ---
+# ardından Markdown metin. Görseller yayın klasörüne (news/<adres>/) konur.
+# Yazının olmadığı dillerde listede İngilizcesi (yoksa Türkçesi) gösterilir.
 #
 # Şablon sözdizimi:
 #   {{anahtar}}       çeviri metni, olduğu gibi (HTML içerebilir)
@@ -52,6 +63,7 @@ $Pages = @(
   @{ src = 'studio.html';    path = '/studio/';                  title = 'studio_title'; desc = 'studio_desc'; nav = 'studio' },
   @{ src = 'flicklane.html'; path = '/games/flicklane/';         title = 'fl_title';     desc = 'fl_desc';     nav = 'games' },
   @{ src = 'hourwell.html';  path = '/apps/hourwell/';           title = 'hw_title';     desc = 'hw_desc';     nav = 'apps' },
+  @{ src = 'news.html';      path = '/news/';                    title = 'news_title';   desc = 'news_desc';   nav = 'news' },
   @{ src = 'privacy.html';   path = '/games/flicklane/privacy/'; nav = 'games'; only = 'en'; fallback = '/games/flicklane/';
      titleText = 'Flicklane Privacy Policy · The Happy Smash Iron'; descText = 'How the Flicklane mobile game handles your information.' },
   @{ src = 'hourwell-privacy-{code}.html'; path = '/apps/hourwell/privacy/'; nav = 'apps'; only = @('en', 'tr'); fallback = '/apps/hourwell/';
@@ -61,12 +73,16 @@ $Pages = @(
      titleText = 'Page not found · The Happy Smash Iron'; descText = 'This page does not exist.' }
 )
 
+$TagOf = @{}
+foreach ($l in $Langs) { $TagOf[$l.code] = $l.tag }
+
 if ($AllowMissing) {
   $Langs = @($Langs | Where-Object { Test-Path (Join-Path $Src "i18n/$($_.code).json") })
   Write-Host "Diller: $(($Langs | ForEach-Object { $_.code }) -join ', ')"
 }
 
-if ($Only) { $Langs = @($Langs | Where-Object { $Only -contains $_.code }) }
+# -File ile çağrılınca "en,tr" tek metin olarak gelir; virgülden ayrılır.
+if ($Only) { $Only = @($Only -split ',' | ForEach-Object { $_.Trim() }); $Langs = @($Langs | Where-Object { $Only -contains $_.code }) }
 
 function Read-Text($path) { [System.IO.File]::ReadAllText($path, $Utf8) -replace "`r`n", "`n" }
 # Sadece gerekli karakterler kaçışlanır; ·, ’ ve diğer UTF-8 harfler olduğu gibi kalır.
@@ -117,6 +133,77 @@ function Render([string]$tpl, [hashtable]$dict, [hashtable]$vars) {
     return $dict[$name]
   }
   [regex]::Replace($tpl, '\{\{(attr:)?(@?)([A-Za-z0-9_]+)\}\}', $eval)
+}
+
+# ---- Haber yazılarını yükle (en yeni önce) ----
+$NewsLangs = @('en', 'tr')
+$Posts = @()
+$newsDir = Join-Path $Src 'news'
+if (Test-Path $newsDir) {
+  if (-not (Get-Command ConvertFrom-Markdown -ErrorAction SilentlyContinue)) { throw 'Haber yazıları için PowerShell 7 (pwsh) gerekli.' }
+  foreach ($dir in Get-ChildItem $newsDir -Directory) {
+    if ($dir.Name -cnotmatch '^[a-z0-9]+(-[a-z0-9]+)*$') { throw "news/$($dir.Name): adres sadece küçük harf, rakam ve - içerebilir" }
+    $versions = @{}
+    foreach ($f in Get-ChildItem $dir.FullName -File) {
+      $where = "news/$($dir.Name)/$($f.Name)"
+      if ($f.Extension -ne '.md') { continue }
+      if ($NewsLangs -cnotcontains $f.BaseName) { throw "${where}: dosya adı $($NewsLangs -join '.md ya da ').md olmalı" }
+      $m = [regex]::Match((Read-Text $f.FullName), '\A---\n(.*?)\n---\n(.*)\z', 'Singleline')
+      if (-not $m.Success) { throw "${where}: başta --- satırları arasında title/date/summary bloğu yok" }
+      $meta = @{}
+      foreach ($line in $m.Groups[1].Value -split "`n") {
+        if ($line -match '^\s*([a-z]+)\s*:\s*(.*?)\s*$') { $meta[$Matches[1]] = $Matches[2] -replace '^"(.*)"$', '$1' }
+      }
+      foreach ($k in 'title', 'date', 'summary') { if (-not $meta[$k]) { throw "${where}: '$k' eksik" } }
+      $date = [datetime]::MinValue
+      if (-not [datetime]::TryParseExact($meta.date, 'yyyy-MM-dd', [cultureinfo]::InvariantCulture, 'None', [ref]$date)) { throw "${where}: tarih YYYY-AA-GG biçiminde olmalı" }
+      $versions[$f.BaseName] = @{
+        code = $f.BaseName; title = $meta.title; summary = $meta.summary; image = $meta.image; date = $date
+        body = (ConvertFrom-Markdown -InputObject $m.Groups[2].Value).Html.Trim()
+      }
+    }
+    if ($versions.Count) { $Posts += @{ slug = $dir.Name; versions = $versions; date = ($versions.Values | ForEach-Object { $_.date } | Sort-Object -Descending | Select-Object -First 1) } }
+  }
+  $Posts = @($Posts | Sort-Object @{ e = { $_.date }; Descending = $true }, @{ e = { $_.slug } })
+}
+
+# Her yazı, yazıldığı dillerde ayrı sayfa; diğer dillerde menü haber listesine gider.
+foreach ($post in $Posts) {
+  $codes = @($NewsLangs | Where-Object { $post.versions.ContainsKey($_) })
+  $titles = @{}; $descs = @{}
+  foreach ($c in $codes) { $titles[$c] = "$($post.versions[$c].title) · The Happy Smash Iron"; $descs[$c] = $post.versions[$c].summary }
+  $Pages += @{ src = 'news-post.html'; path = "/news/$($post.slug)/"; nav = 'news'; only = $codes; fallback = '/news/'; post = $post; titleText = $titles; descText = $descs }
+}
+
+$Arrow = '<svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
+
+# Tarih, sayfanın dilinde (biçim çeviri dosyasındaki news_date_format)
+function NewsDate($date, $l) { $date.ToString($Dicts[$l.code]['news_date_format'], [cultureinfo]::GetCultureInfo($l.tag)) }
+
+# Haber kartları; sayfanın dilinde yazı yoksa İngilizcesi, o da yoksa Türkçesi (dil etiketiyle)
+function NewsCards($l, [int]$max, [string]$hx) {
+  $d = $Dicts[$l.code]
+  $list = @($Posts | Select-Object -First $(if ($max) { $max } else { [int]::MaxValue }))
+  if (-not $list) { return "        <div class=`"placeholder`">`n          <p>$($d['news_empty'])</p>`n        </div>" }
+  $cards = foreach ($post in $list) {
+    $v = foreach ($c in @($l.code, 'en', 'tr')) { if ($post.versions.ContainsKey($c)) { $post.versions[$c]; break } }
+    $vtag = $TagOf[$v.code]
+    $lang = if ($v.code -ne $l.code) { " lang=`"$vtag`"" + $(if ($l.rtl) { ' dir="ltr"' }) } else { '' }
+    $badge = if ($v.code -ne $l.code) { " <span class=`"en-tag`" lang=`"$vtag`">$($v.code.ToUpperInvariant())</span>" } else { '' }
+    $lines = @("          <a class=`"news-card`" href=`"$(Prefix $v.code)/news/$($post.slug)/`" hreflang=`"$vtag`">")
+    if ($v.image) { $lines += "            <div class=`"thumb`"><img src=`"$(Enc $v.image)`" alt=`"`" width=`"1024`" height=`"500`" loading=`"lazy`"></div>" }
+    $lines += @(
+      '            <div class="body">',
+      "              <p class=`"meta`"><time datetime=`"$($v.date.ToString('yyyy-MM-dd'))`">$(NewsDate $v.date $l)</time>$badge</p>",
+      "              <$hx$lang>$(Enc $v.title)</$hx>",
+      "              <p$lang>$(Enc $v.summary)</p>",
+      "              <span class=`"go`">$($d['news_read'])`n                $Arrow</span>",
+      '            </div>',
+      '          </a>'
+    )
+    $lines -join "`n"
+  }
+  "        <div class=`"news-list`">`n$($cards -join "`n")`n        </div>"
 }
 
 $sitemap = New-Object System.Collections.Generic.List[string]
@@ -171,9 +258,22 @@ foreach ($page in $Pages) {
       cur_games  = $(if ($page.nav -eq 'games') { ' aria-current="page"' } else { '' })
       cur_apps   = $(if ($page.nav -eq 'apps') { ' aria-current="page"' } else { '' })
       cur_studio = $(if ($page.nav -eq 'studio') { ' aria-current="page"' } else { '' })
+      cur_news   = $(if ($page.nav -eq 'news') { ' aria-current="page"' } else { '' })
+      og_image   = "$Site/assets/brand/icon-512.png"
       en_only    = $(if ($l.code -eq 'en') { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
       hw_privacy = "href=`"$(Prefix $hwp.code)/apps/hourwell/privacy/`" hreflang=`"$($hwp.tag)`""
       hw_privacy_tag = $(if ($hwp.code -eq $l.code) { '' } else { ' <span class="en-tag" lang="en">EN</span>' })
+    }
+    if ($page.src -eq 'home.html') { $vars.latest_news = NewsCards $l 3 'h3' }
+    if ($page.src -eq 'news.html') { $vars.news_list = NewsCards $l 0 'h2' }
+    if ($page.post) {
+      $v = $page.post.versions[$l.code]
+      $vars.post_title = Enc $v.title
+      $vars.post_iso = $v.date.ToString('yyyy-MM-dd')
+      $vars.post_date = NewsDate $v.date $l
+      $vars.post_body = $v.body
+      $vars.post_cover = $(if ($v.image) { "    <img class=`"post-cover`" src=`"$(Enc $v.image)`" alt=`"`" width=`"1024`" height=`"500`">" } else { '' })
+      if ($v.image -like '/*') { $vars.og_image = Enc "$Site$($v.image)" }
     }
 
     $html = Render $tpl $d $vars

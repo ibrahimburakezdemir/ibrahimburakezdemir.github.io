@@ -5,6 +5,7 @@
   "nav_games": "Spill",
   "nav_apps": "Apper",
   "nav_studio": "Studio",
+  "nav_news": "Nyheter",
   "nav_contact": "Kontakt",
   "lang_label": "Språk",
   "footer_tagline": "Et uavhengig studio som lager små spill og nyttige apper.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Sikkerhetskopier og skysynkronisering",
   "plan_pro_note": "Månedlig, årlig eller et engangskjøp for alltid. Årsabonnementet starter med 7 dagers gratis prøveperiode.",
   "hw_help_title": "Spørsmål om Hourwell?",
-  "hw_help_text": "Skriv til oss. Et ekte menneske leser hver eneste melding."
+  "hw_help_text": "Skriv til oss. Et ekte menneske leser hver eneste melding.",
+
+  "news_title": "Nyheter · The Happy Smash Iron",
+  "news_desc": "Nyheter og oppdateringer fra The Happy Smash Iron: lanseringer, nye versjoner og notater fra verkstedet.",
+  "news_h1_plain": "Nytt fra",
+  "news_h1_mark": "verkstedet.",
+  "news_lead": "Lanseringer, oppdateringer og glimt bak kulissene fra spillene og appene våre. Innleggene skrives på engelsk og tyrkisk.",
+  "news_empty": "Ingenting her ennå. Den første saken ligger på ambolten.",
+  "news_read": "Les mer",
+  "news_back": "Alle nyheter",
+  "home_news_title": "Siste nytt fra verkstedet.",
+  "news_date_format": "d. MMMM yyyy"
 }

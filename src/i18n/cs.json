@@ -5,6 +5,7 @@
   "nav_games": "Hry",
   "nav_apps": "Aplikace",
   "nav_studio": "Studio",
+  "nav_news": "Novinky",
   "nav_contact": "Kontakt",
   "lang_label": "Jazyk",
   "footer_tagline": "Nezávislé studio, které tvoří malé hry a šikovné aplikace.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Zálohy a synchronizace s cloudem",
   "plan_pro_note": "Měsíčně, ročně, nebo jednorázový doživotní nákup. Roční předplatné začíná 7denní zkušební verzí zdarma.",
   "hw_help_title": "Otázky k Hourwellu?",
-  "hw_help_text": "Napiš nám. Každou zprávu čte skutečný člověk."
+  "hw_help_text": "Napiš nám. Každou zprávu čte skutečný člověk.",
+
+  "news_title": "Novinky · The Happy Smash Iron",
+  "news_desc": "Novinky a aktualizace od The Happy Smash Iron: vydání, nové verze a poznámky z dílny.",
+  "news_h1_plain": "Novinky z",
+  "news_h1_mark": "dílny.",
+  "news_lead": "Zprávy o vydání, aktualizace a pohled do zákulisí našich her a aplikací. Články vycházejí v angličtině a turečtině.",
+  "news_empty": "Zatím tu nic není. První článek je na kovadlině.",
+  "news_read": "Číst dál",
+  "news_back": "Všechny novinky",
+  "home_news_title": "Nejnovější z dílny.",
+  "news_date_format": "d. MMMM yyyy"
 }

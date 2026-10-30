@@ -5,6 +5,7 @@
   "nav_games": "游戏",
   "nav_apps": "应用",
   "nav_studio": "工作室",
+  "nav_news": "新闻",
   "nav_contact": "联系我们",
   "lang_label": "语言",
   "footer_tagline": "一家独立工作室，专做小巧的游戏和好用的应用。",
@@ -161,5 +162,16 @@
   "plan_pro_4": "备份和云同步",
   "plan_pro_note": "可按月或按年订阅，也可一次性买断终身使用。年度方案含 7 天免费试用。",
   "hw_help_title": "关于 Hourwell 有疑问？",
-  "hw_help_text": "给我们写封信吧。每条消息都有真人阅读。"
+  "hw_help_text": "给我们写封信吧。每条消息都有真人阅读。",
+
+  "news_title": "新闻 · The Happy Smash Iron",
+  "news_desc": "The Happy Smash Iron 的新闻与动态：上线消息、新版本和来自工坊的记录。",
+  "news_h1_plain": "工坊",
+  "news_h1_mark": "新鲜事。",
+  "news_lead": "我们的游戏和应用的上线消息、更新动态和幕后花絮。文章以英语和土耳其语发布。",
+  "news_empty": "这里暂时还没有内容。第一篇正在铁砧上敲打。",
+  "news_read": "阅读全文",
+  "news_back": "全部新闻",
+  "home_news_title": "工坊最新消息。",
+  "news_date_format": "yyyy年M月d日"
 }

@@ -5,6 +5,7 @@
   "nav_games": "Pelit",
   "nav_apps": "Sovellukset",
   "nav_studio": "Studio",
+  "nav_news": "Uutiset",
   "nav_contact": "Yhteystiedot",
   "lang_label": "Kieli",
   "footer_tagline": "Itsenäinen studio, joka tekee pieniä pelejä ja käteviä sovelluksia.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Varmuuskopiot ja pilvisynkronointi",
   "plan_pro_note": "Kuukausi- tai vuositilaus tai elinikäinen kertaostos. Vuositilaus alkaa 7 päivän ilmaisella kokeilujaksolla.",
   "hw_help_title": "Kysyttävää Hourwellista?",
-  "hw_help_text": "Kirjoita meille. Jokaisen viestin lukee oikea ihminen."
+  "hw_help_text": "Kirjoita meille. Jokaisen viestin lukee oikea ihminen.",
+
+  "news_title": "Uutiset · The Happy Smash Iron",
+  "news_desc": "The Happy Smash Ironin uutiset ja päivitykset: julkaisut, uudet versiot ja muistiinpanot verstaalta.",
+  "news_h1_plain": "Uutisia",
+  "news_h1_mark": "verstaalta.",
+  "news_lead": "Julkaisuja, päivityksiä ja kulissien takaisia muistiinpanoja peleistämme ja sovelluksistamme. Kirjoitukset julkaistaan englanniksi ja turkiksi.",
+  "news_empty": "Täällä ei ole vielä mitään. Ensimmäinen juttu on alasimella.",
+  "news_read": "Lue lisää",
+  "news_back": "Kaikki uutiset",
+  "home_news_title": "Tuoreimmat verstaalta.",
+  "news_date_format": "d. MMMM yyyy"
 }

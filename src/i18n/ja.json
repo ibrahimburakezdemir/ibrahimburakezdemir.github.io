@@ -5,6 +5,7 @@
   "nav_games": "ゲーム",
   "nav_apps": "アプリ",
   "nav_studio": "スタジオ",
+  "nav_news": "ニュース",
   "nav_contact": "お問い合わせ",
   "lang_label": "言語",
   "footer_tagline": "小さなゲームと便利なアプリをつくる、インディースタジオです。",
@@ -161,5 +162,16 @@
   "plan_pro_4": "バックアップとクラウド同期",
   "plan_pro_note": "月額、年額、または買い切りの永久ライセンスから選べます。年額プランは7日間の無料トライアル付きです。",
   "hw_help_title": "Hourwell について質問がありますか？",
-  "hw_help_text": "お気軽にご連絡ください。どのメッセージも、ちゃんと人が読んでいます。"
+  "hw_help_text": "お気軽にご連絡ください。どのメッセージも、ちゃんと人が読んでいます。",
+
+  "news_title": "ニュース · The Happy Smash Iron",
+  "news_desc": "The Happy Smash Iron のニュースとお知らせ：リリース情報、新バージョン、工房からのメモ。",
+  "news_h1_plain": "工房からの",
+  "news_h1_mark": "お知らせ。",
+  "news_lead": "ゲームとアプリのリリース情報、アップデート、制作の裏話をお届けします。記事は英語とトルコ語で公開しています。",
+  "news_empty": "まだ記事はありません。最初の記事を鍛造中です。",
+  "news_read": "続きを読む",
+  "news_back": "ニュース一覧",
+  "home_news_title": "工房からの最新情報。",
+  "news_date_format": "yyyy年M月d日"
 }

@@ -5,6 +5,7 @@
   "nav_games": "Permainan",
   "nav_apps": "Aplikasi",
   "nav_studio": "Studio",
+  "nav_news": "Berita",
   "nav_contact": "Hubungi",
   "lang_label": "Bahasa",
   "footer_tagline": "Studio bebas yang menghasilkan permainan kecil dan aplikasi berguna.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Sandaran dan penyegerakan awan",
   "plan_pro_note": "Bulanan, tahunan atau pembelian sekali seumur hayat. Pelan tahunan bermula dengan percubaan percuma 7 hari.",
   "hw_help_title": "Ada soalan tentang Hourwell?",
-  "hw_help_text": "Tulis kepada kami. Setiap mesej dibaca oleh orang sebenar."
+  "hw_help_text": "Tulis kepada kami. Setiap mesej dibaca oleh orang sebenar.",
+
+  "news_title": "Berita · The Happy Smash Iron",
+  "news_desc": "Berita dan kemas kini daripada The Happy Smash Iron: pelancaran, versi baharu dan catatan dari bengkel.",
+  "news_h1_plain": "Berita dari",
+  "news_h1_mark": "bengkel.",
+  "news_lead": "Berita pelancaran, kemas kini dan cerita di sebalik tabir permainan dan aplikasi kami. Hantaran ditulis dalam bahasa Inggeris dan Turki.",
+  "news_empty": "Belum ada apa-apa di sini. Cerita pertama sedang ditempa.",
+  "news_read": "Baca lagi",
+  "news_back": "Semua berita",
+  "home_news_title": "Terkini dari bengkel.",
+  "news_date_format": "d MMMM yyyy"
 }

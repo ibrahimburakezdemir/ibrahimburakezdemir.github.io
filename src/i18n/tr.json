@@ -5,6 +5,7 @@
   "nav_games": "Oyunlar",
   "nav_apps": "Uygulamalar",
   "nav_studio": "Stüdyo",
+  "nav_news": "Haberler",
   "nav_contact": "İletişim",
   "lang_label": "Dil",
   "footer_tagline": "Küçük oyunlar ve kullanışlı uygulamalar yapan bağımsız bir stüdyo.",
@@ -161,5 +162,16 @@
   "plan_pro_4": "Yedekleme ve bulut eşitleme",
   "plan_pro_note": "Aylık, yıllık ya da tek seferlik ömür boyu satın alma. Yıllık plan 7 günlük ücretsiz denemeyle başlar.",
   "hw_help_title": "Hourwell hakkında soruların mı var?",
-  "hw_help_text": "Bize yaz. Her mesajı gerçek bir insan okuyor."
+  "hw_help_text": "Bize yaz. Her mesajı gerçek bir insan okuyor.",
+
+  "news_title": "Haberler · The Happy Smash Iron",
+  "news_desc": "The Happy Smash Iron’dan haberler ve güncellemeler: çıkışlar, yeni sürümler ve atölyeden notlar.",
+  "news_h1_plain": "Atölyeden",
+  "news_h1_mark": "haberler.",
+  "news_lead": "Oyunlarımız ve uygulamalarımızla ilgili çıkış haberleri, güncellemeler ve perde arkasından notlar. Yazılar Türkçe ve İngilizce yayımlanıyor.",
+  "news_empty": "Henüz yazı yok. İlki örsün üstünde.",
+  "news_read": "Devamını oku",
+  "news_back": "Tüm haberler",
+  "home_news_title": "Atölyeden son haberler.",
+  "news_date_format": "d MMMM yyyy"
 }
