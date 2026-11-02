@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 500" width="1024" height="500">
+  <rect width="1024" height="500" fill="#1B1A18"/>
+  <g fill="none" stroke="#2B2925" stroke-width="1">
+    <path d="M0 62H1024M0 124H1024M0 186H1024M0 248H1024M0 310H1024M0 372H1024M0 434H1024"/>
+    <path d="M64 0V500M192 0V500M320 0V500M448 0V500M576 0V500M704 0V500M832 0V500M960 0V500"/>
+  </g>
+
+  <!-- 1958: osiloskopta zıplayan top -->
+  <circle cx="190" cy="215" r="128" fill="#2B2925" stroke="#FFB000" stroke-width="5"/>
+  <circle cx="190" cy="215" r="112" fill="none" stroke="#48453F" stroke-width="1.5"/>
+  <path d="M100 262H280" stroke="#FFE3A3" stroke-width="3"/>
+  <path d="M190 262V236" stroke="#FFE3A3" stroke-width="3"/>
+  <path d="M104 262Q128 170 152 262Q166 214 180 262" fill="none" stroke="#FFB000" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <circle cx="180" cy="262" r="6" fill="#FFB000"/>
+
+  <!-- 1972: Pong -->
+  <rect x="384" y="95" width="256" height="240" rx="14" fill="#2B2925" stroke="#FFB000" stroke-width="5"/>
+  <path d="M512 111V319" stroke="#6A665E" stroke-width="4" stroke-dasharray="10 10"/>
+  <rect x="408" y="150" width="10" height="52" fill="#F3F3F0"/>
+  <rect x="606" y="226" width="10" height="52" fill="#F3F3F0"/>
+  <path d="M424 180L560 214" stroke="#FFB000" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <rect x="560" y="207" width="13" height="13" fill="#FFB000"/>
+
+  <!-- 2008: telefonda yılan -->
+  <rect x="756" y="70" width="168" height="292" rx="26" fill="#2B2925" stroke="#FFB000" stroke-width="5"/>
+  <rect x="772" y="102" width="136" height="226" rx="6" fill="#1B1A18"/>
+  <path d="M801 300V256H851V196H881V140" fill="none" stroke="#FFB000" stroke-width="12" stroke-linejoin="miter"/>
+  <rect x="823" y="136" width="12" height="12" fill="#FFE3A3"/>
+  <rect x="822" y="80" width="36" height="6" rx="3" fill="#48453F"/>
+
+  <!-- zaman çizgisi -->
+  <path d="M64 420H960" stroke="#48453F" stroke-width="3"/>
+  <g fill="#FFB000">
+    <circle cx="190" cy="420" r="9"/>
+    <circle cx="512" cy="420" r="9"/>
+    <circle cx="840" cy="420" r="9"/>
+  </g>
+  <g fill="#F3F3F0" font-family="Bricolage Grotesque, Segoe UI, system-ui, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <text x="190" y="468">1958</text>
+    <text x="512" y="468">1972</text>
+    <text x="840" y="468">2008</text>
+  </g>
+</svg>
