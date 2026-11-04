@@ -1,9 +1,9 @@
   <main id="main" class="wrap doc">
     <p class="crumbs"><a href="{{@root}}/apps/">{{nav_apps}}</a> / <a href="{{@root}}/apps/hourwell/">Hourwell</a> / Gizlilik</p>
     <h1>Gizlilik politikası</h1>
-    <p class="updated">Son güncelleme: 15 Ekim 2026</p>
+    <p class="updated">Son güncelleme: 2 Kasım 2026</p>
 
-    <p>Bu gizlilik politikası, The Happy Smash Iron tarafından yayımlanan <strong>Hourwell</strong> zaman takibi uygulamasının bilgilerinizi nasıl ele aldığını açıklar.</p>
+    <p>Bu gizlilik politikası, The Happy Smash Iron tarafından yayımlanan iPhone ve Android için <strong>Hourwell</strong> zaman takibi uygulamasının bilgilerinizi nasıl ele aldığını açıklar.</p>
 
     <div class="summary">
       <p><strong>Hourwell hiçbir veriyi toplamaz, sunucuya göndermez ve üçüncü taraflarla paylaşmaz.</strong> Uygulamada analitik, reklam kimliği, çökme raporlama servisi ve izleme yoktur. Tuttuğunuz kayıtlar yalnızca telefonunuzda durur.</p>
@@ -15,53 +15,66 @@
         <tr><th scope="col">Veri</th><th scope="col">Nerede durur</th><th scope="col">Kim görebilir</th></tr>
       </thead>
       <tbody>
-        <tr><td>Aktiviteler, zaman kayıtları, notlar</td><td data-label="Nerede">Telefonunuzdaki veritabanı (<code>hourwell.sqlite</code>)</td><td data-label="Kim görür">Yalnızca siz</td></tr>
-        <tr><td>Tercihler (tema, hayvan, dil, hedefler ve belirlediyseniz profil adınız)</td><td data-label="Nerede">Telefonunuzdaki ayar dosyası</td><td data-label="Kim görür">Yalnızca siz</td></tr>
-        <tr><td>Üyelik hakkı</td><td data-label="Nerede">Telefonunuzdaki ayrı ayar dosyası</td><td data-label="Kim görür">Yalnızca siz</td></tr>
-        <tr><td>Hata kaydı (son 40 hata)</td><td data-label="Nerede">Telefonunuzda</td><td data-label="Kim görür">Yalnızca siz; ancak siz <strong>Ayarlar → Hakkında → Hata kaydını kopyala</strong> ile kopyalayıp birine gönderirseniz paylaşılır</td></tr>
+        <tr><td>Aktiviteler, zaman kayıtları ve notlar</td><td data-label="Nerede">Telefonunuzdaki bir veritabanı (<code>hourwell.sqlite</code>). iPhone’da yalnızca Hourwell’in kendi widget’ları, Live Activity’si ve kestirmeleriyle paylaşılan bir alanda durur.</td><td data-label="Kim görür">Yalnızca siz</td></tr>
+        <tr><td>Tercihler (tema, evcil hayvan, dil, hedefler ve girdiyseniz profil adınız)</td><td data-label="Nerede">Telefonunuzdaki bir ayar dosyası</td><td data-label="Kim görür">Yalnızca siz</td></tr>
+        <tr><td>Pro üyelik durumu</td><td data-label="Nerede">Telefonunuzdaki ayrı bir ayar dosyası</td><td data-label="Kim görür">Yalnızca siz</td></tr>
+        <tr><td>Hata kaydı (son 40 hata)</td><td data-label="Nerede">Telefonunuzda. Hata kodlarını ve mesajlarını içerir; aktivite adlarınızı ya da notlarınızı asla içermez.</td><td data-label="Kim görür">Yalnızca siz. Yalnızca <strong>Ayarlar → Hakkında → Hata kaydını kopyala</strong> ile kendiniz kopyalayıp birine gönderirseniz paylaşılır.</td></tr>
       </tbody>
     </table>
-    <p>Uygulamanın kendisi internete bağlanmaz. Paketteki internet izni Google Play faturalandırma kitaplığından geliyor ve yalnızca satın almayı doğrulamak için kullanılıyor; kayıtlarınız, ayarlarınız ya da kullanımınız hakkında hiçbir şey gönderilmez.</p>
+    <p>Uygulamanın kendisi internete bağlanmaz. Tek ağ trafiği, App Store’un (iPhone) ya da Google Play’in (Android) yaptığı satın alma kontrolüdür. Kayıtlarınız, ayarlarınız ya da uygulamayı nasıl kullandığınız hakkında hiçbir şey gönderilmez.</p>
 
-    <h2>Dışa aktardığınız dosyalar</h2>
-    <p>Dört durumda veri telefonun dışına çıkar. İlk üçünü <strong>siz başlatırsınız</strong>, dördüncüsü telefonunuzun kendi yedekleme ayarına bağlıdır:</p>
+    <h2>Veriler telefonunuzdan ne zaman çıkar</h2>
+    <p>Veriler yalnızca şu durumlarda telefonunuzdan çıkar. İlklerini <strong>siz başlatırsınız</strong>; yedekler telefonunuzun kendi ayarlarına bağlıdır:</p>
     <ol>
       <li><strong>CSV dışa aktarma.</strong> Dosyayı seçtiğiniz uygulamaya siz gönderirsiniz.</li>
-      <li><strong>Yedek dosyası.</strong> Seçtiğiniz klasöre yazılır.</li>
-      <li><strong>Bulut eşitleme.</strong> Siz bir klasör seçtiğinizde, tek bir JSON dosyası o klasöre yazılır. Klasör Drive, Dropbox, OneDrive gibi bir sağlayıcıdaysa dosya o sağlayıcının sunucusunda durur ve <strong>o sağlayıcının gizlilik politikasına</strong> tabi olur. Hourwell’in sunucusu yoktur; verinize hiçbir noktada erişmeyiz. Eşitlemeyi <strong>Ayarlar → Bulut eşitleme → Bağlantıyı kes</strong> ile durdurabilirsiniz.</li>
-      <li><strong>Android yedeği.</strong> Telefonunuzda Google yedeklemesi açıksa Android, uygulama verisini (kayıtlar ve ayarlar) Google hesabınıza yedekler ve yeni telefona geçince geri yükler. Bu yedeği Google yönetir ve Android 9 ve sonrasında, ekran kilidi ayarlıysa ekran kilidi parolanızla şifrelenir; Hourwell ona erişmez. Telefonun <strong>Ayarlar → Sistem → Yedekleme</strong> bölümünden kapatabilirsiniz.</li>
+      <li><strong>Yedek dosyası.</strong> Seçtiğiniz yere (örneğin Dosyalar uygulamasına) kaydedilir.</li>
+      <li><strong>Bulut eşitleme (Android).</strong> Bir klasör seçtiğinizde içine tek bir JSON dosyası yazılır. Klasör Google Drive, Dropbox ya da OneDrive gibi bir sağlayıcıya aitse dosya o sağlayıcının sunucularında durur ve <strong>o sağlayıcının gizlilik politikasına</strong> tabidir. Hourwell’in sunucusu yoktur; verilerinize hiçbir zaman erişmeyiz. Eşitlemeyi <strong>Ayarlar → Bulut eşitleme → Bağlantıyı kes</strong> ile durdurabilirsiniz. Bulut eşitleme iPhone’da henüz yoktur.</li>
+      <li><strong>Siri ve Kestirmeler (iPhone).</strong> Hourwell’i Siri ile kullanırsanız Siri, söylediğiniz ya da seçtiğiniz aktivite adlarını ve size okuduğu yanıtı (örneğin bugünün toplamını) görür. Siri istekleri Apple tarafından <strong>Apple’ın gizlilik politikasına</strong> göre işlenir. Bize hiçbir şey gönderilmez.</li>
+      <li><strong>iPhone yedeği.</strong> iCloud Yedekleme açıksa ya da iPhone’unuzu bir bilgisayara yedekliyorsanız uygulamanın verileri bu yedeğe girer; yedeği Apple yönetir, Hourwell erişemez. <strong>Ayarlar → [adınız] → iCloud → iCloud Yedekleme</strong> bölümünden kapatabilirsiniz.</li>
+      <li><strong>Android yedeği.</strong> Telefonunuzda Google yedeklemesi açıksa Android, uygulamanın verilerini (kayıtlarınızı ve ayarlarınızı) Google hesabınıza yedekler ve yeni telefona geçtiğinizde geri yükler. Bu yedeği Google yönetir; Android 9 ve sonrasında, ekran kilidiniz varsa onunla şifrelenir. Hourwell erişemez. Telefonunuzun <strong>Ayarlar → Sistem → Yedekleme</strong> bölümünden kapatabilirsiniz.</li>
     </ol>
 
     <h2>Satın almalar</h2>
-    <p>Abonelik ve tek seferlik satın almalar <strong>Google Play</strong> üzerinden yürür. Ödeme bilgilerinizi uygulama görmez, saklamaz ve işlemez; bunlar Google ile aranızdadır. Uygulama Play’den yalnızca “bu kullanıcının Pro hakkı var mı” bilgisini okur.</p>
+    <p>Abonelikler ve tek seferlik satın almalar iPhone’da <strong>App Store</strong>, Android’de <strong>Google Play</strong> üzerinden yapılır. Uygulama ödeme bilgilerinizi görmez, saklamaz, işlemez; bunlar sizinle Apple ya da Google arasındadır. Uygulamanın mağazadan okuduğu tek şey Pro erişiminizin olup olmadığıdır.</p>
 
-    <h2>İzinler</h2>
+    <h2>iPhone’daki izinler</h2>
     <table>
       <thead>
         <tr><th scope="col">İzin</th><th scope="col">Neden</th></tr>
       </thead>
       <tbody>
-        <tr><td>Bildirimler</td><td>Çalışan sayaç, Pomodoro bitişi, günlük hatırlatıcı, unutulan sayaç uyarısı</td></tr>
-        <tr><td>Ön plan servisi (yalnızca Android 14+)</td><td>Sayaç çalışırken ekran kapalıyken de sayaç bildiriminin ve Pomodoro zilinin sürmesi</td></tr>
-        <tr><td>Cihaz açılışında çalışma</td><td>Yeniden başlatmadan sonra çalışan sayaç bildiriminin ve hatırlatıcının geri gelmesi</td></tr>
-        <tr><td>Titreşim</td><td>Pomodoro bitiş bildirimi</td></tr>
-        <tr><td>Uyanık tutma</td><td>Hatırlatıcı ve unutulan sayaç uyarısının telefon uykudayken de gelmesi</td></tr>
-        <tr><td>İnternet, ağ durumu, faturalandırma</td><td>Yalnızca Google Play satın alma doğrulaması</td></tr>
-        <tr><td>Dosya seçici (SAF)</td><td>Yalnızca sizin seçtiğiniz dosya ve klasöre erişim</td></tr>
+        <tr><td>Bildirimler</td><td>Pomodoro bitişi, günlük hatırlatıcı, haftalık özet ve unutulan sayaç uyarısı</td></tr>
+        <tr><td>Canlı Etkinlikler</td><td>Çalışan sayaçlar kilit ekranında ve Dynamic Island’da, Durdur düğmesiyle. <strong>Ayarlar → Hourwell</strong> bölümünden kapatabilirsiniz.</td></tr>
       </tbody>
     </table>
-    <p>Kesin alarm izni istenmez: hatırlatıcı ve uyarılar birkaç dakika gecikebilen normal alarmlarla çalışır.</p>
-    <p>Konum, kişiler, kamera, mikrofon ve cihaz kimliği istenmez.</p>
+
+    <h2>Android’deki izinler</h2>
+    <table>
+      <thead>
+        <tr><th scope="col">İzin</th><th scope="col">Neden</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Bildirimler</td><td>Çalışan sayaç, Pomodoro bitişi, günlük hatırlatıcı ve unutulan sayaç uyarısı</td></tr>
+        <tr><td>Ön plan hizmeti (yalnızca Android 14 ve sonrası)</td><td>Sayaç çalışırken, ekran kapalıyken bile sayaç bildirimini ve Pomodoro zilini sürdürür</td></tr>
+        <tr><td>Açılışta çalışma</td><td>Telefon yeniden başlayınca çalışan sayaç bildirimini ve hatırlatıcıyı geri getirir</td></tr>
+        <tr><td>Titreşim</td><td>Pomodoro bitiş bildirimi</td></tr>
+        <tr><td>Uyanık tutma</td><td>Hatırlatıcının ve unutulan sayaç uyarısının telefon uykudayken de gelmesini sağlar</td></tr>
+        <tr><td>İnternet, ağ durumu, faturalandırma</td><td>Yalnızca Google Play ile satın almaları doğrulamak için</td></tr>
+        <tr><td>Dosya seçici (Storage Access Framework)</td><td>Yalnızca sizin seçtiğiniz dosya ve klasörlere erişim</td></tr>
+      </tbody>
+    </table>
+    <p>Android’de uygulama tam zamanlı alarm izni istemez: hatırlatıcı ve uyarılar normal alarm kullanır, birkaç dakika gecikebilir.</p>
+    <p>Uygulama iki platformda da konumunuza, kişilerinize, fotoğraflarınıza, kameraya, mikrofona, sağlık verilerinize ya da cihaz kimliklerine erişim istemez.</p>
 
     <h2>Çocuklar</h2>
-    <p>Uygulama çocuklara yönelik değildir ve çocuklardan bilerek veri toplamaz.</p>
+    <p>Uygulama çocuklara yönelik değildir ve bilerek çocuklardan veri toplamaz.</p>
 
-    <h2>Verinizi silme</h2>
-    <p>Uygulamayı kaldırmak tüm yerel veriyi siler. Bulut klasörüne yazılmış <code>hourwell-sync.json</code> dosyasını o klasörden kendiniz silebilirsiniz.</p>
+    <h2>Verilerinizi silmek</h2>
+    <p>Uygulamayı silmek, widget’larının kullandıkları dahil telefonunuzdaki tüm verilerini siler. Bulut klasörünüze yazılan <code>hourwell-sync.json</code> dosyasını o klasörden kendiniz silebilirsiniz.</p>
 
-    <h2>Değişiklikler</h2>
-    <p>Bu politika değişirse bu sayfa güncellenir ve üstteki tarih değişir.</p>
+    <h2>Bu politikadaki değişiklikler</h2>
+    <p>Politika değişirse bu sayfa güncellenir ve üstteki tarih değişir.</p>
 
     <h2>İletişim</h2>
-    <p>Soru ve talepler: <a href="mailto:support@thehappysmashiron.com"><strong>support@thehappysmashiron.com</strong></a></p>
+    <p>Sorular ve talepler: <a href="mailto:support@thehappysmashiron.com"><strong>support@thehappysmashiron.com</strong></a></p>
   </main>

@@ -61,9 +61,9 @@
   <main id="main" class="wrap doc">
     <p class="crumbs"><a href="/apps/">Apps</a> / <a href="/apps/hourwell/">Hourwell</a> / Privacy</p>
     <h1>Privacy policy</h1>
-    <p class="updated">Last updated: 15 October 2026</p>
+    <p class="updated">Last updated: 2 November 2026</p>
 
-    <p>This Privacy Policy describes how the <strong>Hourwell</strong> time tracking app (“the App”, “we”, “us”), published by The Happy Smash Iron, handles your information.</p>
+    <p>This Privacy Policy describes how the <strong>Hourwell</strong> time tracking app for iPhone and Android (“the App”, “we”, “us”), published by The Happy Smash Iron, handles your information.</p>
 
     <div class="summary">
       <p><strong>Hourwell does not collect any data, does not send it to a server, and does not share it with third parties.</strong> The App contains no analytics, no advertising ID, no crash reporting service and no tracking. The records you keep stay on your phone.</p>
@@ -75,27 +75,40 @@
         <tr><th scope="col">Data</th><th scope="col">Where it is stored</th><th scope="col">Who can see it</th></tr>
       </thead>
       <tbody>
-        <tr><td>Activities, time entries and notes</td><td data-label="Stored">A database on your phone (<code>hourwell.sqlite</code>)</td><td data-label="Visible to">Only you</td></tr>
+        <tr><td>Activities, time entries and notes</td><td data-label="Stored">A database on your phone (<code>hourwell.sqlite</code>). On iPhone it sits in a storage area shared only with Hourwell’s own widgets, Live Activity and shortcuts.</td><td data-label="Visible to">Only you</td></tr>
         <tr><td>Preferences (theme, pet, language, goals, and your profile name if you set one)</td><td data-label="Stored">A settings file on your phone</td><td data-label="Visible to">Only you</td></tr>
         <tr><td>Pro membership status</td><td data-label="Stored">A separate settings file on your phone</td><td data-label="Visible to">Only you</td></tr>
-        <tr><td>Error log (the last 40 errors)</td><td data-label="Stored">On your phone</td><td data-label="Visible to">Only you. It is shared only if you copy it yourself with <strong>Settings → About → Copy error log</strong> and send it to someone.</td></tr>
+        <tr><td>Error log (the last 40 errors)</td><td data-label="Stored">On your phone. It contains error codes and messages, never your activity names or notes.</td><td data-label="Visible to">Only you. It is shared only if you copy it yourself with <strong>Settings → About → Copy error log</strong> and send it to someone.</td></tr>
       </tbody>
     </table>
-    <p>The App itself does not connect to the internet. The internet permission in the app package comes from the Google Play Billing library and is used only to verify purchases. Nothing about your records, your settings or how you use the App is sent.</p>
+    <p>The App itself does not connect to the internet. The only network traffic is the purchase check done by the App Store (iPhone) or Google Play (Android). Nothing about your records, your settings or how you use the App is sent.</p>
 
-    <h2>Files you export</h2>
-    <p>Data leaves your phone in four cases. <strong>You start</strong> the first three yourself; the fourth depends on your phone’s own backup setting:</p>
+    <h2>When data leaves your phone</h2>
+    <p>Data leaves your phone only in these cases. <strong>You start</strong> the first ones yourself; the backups depend on your phone’s own settings:</p>
     <ol>
       <li><strong>CSV export.</strong> You send the file to the app you choose.</li>
-      <li><strong>Backup file.</strong> It is saved to the folder you choose.</li>
-      <li><strong>Cloud sync.</strong> When you choose a folder, a single JSON file is written to it. If that folder belongs to a provider such as Google Drive, Dropbox or OneDrive, the file is stored on that provider’s servers and is subject to <strong>that provider’s privacy policy</strong>. Hourwell has no servers; we never have access to your data. You can stop syncing with <strong>Settings → Cloud sync → Disconnect</strong>.</li>
+      <li><strong>Backup file.</strong> It is saved where you choose (for example the Files app).</li>
+      <li><strong>Cloud sync (Android).</strong> When you choose a folder, a single JSON file is written to it. If that folder belongs to a provider such as Google Drive, Dropbox or OneDrive, the file is stored on that provider’s servers and is subject to <strong>that provider’s privacy policy</strong>. Hourwell has no servers; we never have access to your data. You can stop syncing with <strong>Settings → Cloud sync → Disconnect</strong>. Cloud sync is not yet available on iPhone.</li>
+      <li><strong>Siri and Shortcuts (iPhone).</strong> If you use Hourwell with Siri, Siri sees the activity names you say or pick and the answer it reads to you (for example today’s total). Siri requests are handled by Apple under <strong>Apple’s privacy policy</strong>. Nothing is sent to us.</li>
+      <li><strong>iPhone backup.</strong> If iCloud Backup is on, or you back up your iPhone to a computer, the App’s data is included in that backup, managed by Apple; Hourwell cannot access it. You can turn it off in <strong>Settings → [your name] → iCloud → iCloud Backup</strong>.</li>
       <li><strong>Android backup.</strong> If Google backup is turned on for your phone, Android backs up the App’s data (your records and settings) to your Google account and restores it when you move to a new phone. This backup is managed by Google and, on Android 9 and later, is encrypted with your screen lock if you have one set; Hourwell cannot access it. You can turn it off in your phone’s <strong>Settings → System → Backup</strong>.</li>
     </ol>
 
     <h2>Purchases</h2>
-    <p>Subscriptions and one-time purchases are handled by <strong>Google Play</strong>. The App does not see, store or process your payment details; those are between you and Google. The only thing the App reads from Google Play is whether you have Pro access.</p>
+    <p>Subscriptions and one-time purchases are handled by the <strong>App Store</strong> on iPhone and by <strong>Google Play</strong> on Android. The App does not see, store or process your payment details; those are between you and Apple or Google. The only thing the App reads from the store is whether you have Pro access.</p>
 
-    <h2>Permissions</h2>
+    <h2>Permissions on iPhone</h2>
+    <table>
+      <thead>
+        <tr><th scope="col">Permission</th><th scope="col">Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Notifications</td><td>The end of a Pomodoro, the daily reminder, the weekly summary and the forgotten-timer alert</td></tr>
+        <tr><td>Live Activities</td><td>Running timers on the Lock Screen and in the Dynamic Island, with a Stop button. You can turn them off in <strong>Settings → Hourwell</strong>.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Permissions on Android</h2>
     <table>
       <thead>
         <tr><th scope="col">Permission</th><th scope="col">Why</th></tr>
@@ -110,14 +123,14 @@
         <tr><td>File picker (Storage Access Framework)</td><td>Access only to the files and folders you choose</td></tr>
       </tbody>
     </table>
-    <p>The App does not ask for the exact alarm permission: the reminder and alerts use normal alarms, which may arrive a few minutes late.</p>
-    <p>The App does not ask for access to your location, contacts, camera, microphone or device identifiers.</p>
+    <p>On Android the App does not ask for the exact alarm permission: the reminder and alerts use normal alarms, which may arrive a few minutes late.</p>
+    <p>On either platform the App does not ask for access to your location, contacts, photos, camera, microphone, health data or device identifiers.</p>
 
     <h2>Children</h2>
     <p>The App is not directed at children and does not knowingly collect data from children.</p>
 
     <h2>Deleting your data</h2>
-    <p>Uninstalling the App deletes all of its data on your phone. You can delete the <code>hourwell-sync.json</code> file written to your cloud folder from that folder yourself.</p>
+    <p>Deleting the App deletes all of its data on your phone, including the data its widgets use. You can delete the <code>hourwell-sync.json</code> file written to your cloud folder from that folder yourself.</p>
 
     <h2>Changes to this policy</h2>
     <p>If this policy changes, this page will be updated and the date at the top will change.</p>
